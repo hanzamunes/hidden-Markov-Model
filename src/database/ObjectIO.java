@@ -14,6 +14,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import codebook.CodeBookDictionary;
+
 /**
  * This Class works for both any object <code><T></code>, which implements the
  * Model interface

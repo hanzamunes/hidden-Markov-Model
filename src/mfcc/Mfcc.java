@@ -2,11 +2,12 @@ package mfcc;
 
 import java.util.ArrayList;
 
+
 public class Mfcc {
 	FFT fft = new FFT();
 	DCT dct;
 	public int noOfFrames;
-	public int numCepstra;
+	public int numCepstra=12;
 	public Delta delta;
 	public Energy en;
 	public  Mfcc()
@@ -40,7 +41,7 @@ public class Mfcc {
 		return result;
 	}
 	
-	public double[] DCT(double[] source)
+	/*public double[] DCT(double[] source)
 	{
 		int data = source.length;
 		double[] result = new double[data];
@@ -53,7 +54,7 @@ public class Mfcc {
 			}
 		}
 		return result;
-	}
+	}*/
 	
 	public ArrayList<double[]> FrameBlocking (double[] data, int frameSize, int overlap)
 	{
@@ -174,16 +175,25 @@ public class Mfcc {
 		dct = new DCT(numCepstra,26);
 		double[][] mfccFeature = new double[frame.size()][];
 		double[][] framedSignal = new double[frame.size()][];
+		System.out.println ("Frame size = " + frame.size());
 		for (int i=0;i<frame.size();i++)
 		{
 			double[] window = Windowing (frame.get(i),size);
 			System.out.println("Selesai windowing");
 			framedSignal[i] = window;
-			fft.computeFFT(window);
+			Complex[] signal = new Complex[window.length];
+			for (int x=0;x<window.length;x++)
+			{
+				Complex c = new Complex (window[x],0);
+				signal[x] = c;
+			}
+			Complex[] hasil = fft.fft1D(signal);
 			System.out.println("Selesai fft");
 			double[] frequencyValue = new double[window.length];
 			for (int k = 0; k < window.length; k++) {
-				frequencyValue[k] = Math.sqrt(fft.real[k] * fft.real[k] + fft.imag[k] * fft.imag[k]);
+				double nilaiReal = hasil[k].re();
+				double nilaiImag = hasil[k].im();
+				frequencyValue[k] = Math.sqrt(nilaiReal * nilaiReal + nilaiImag * nilaiImag);
 			}
 			double[] melFrequency = MelFrequencyWrapping(frequencyValue,16000);
 			System.out.println("Selesai MelWrapping");

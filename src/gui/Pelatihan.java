@@ -1,5 +1,6 @@
 package gui;
 
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -11,6 +12,9 @@ import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.ProgressMonitor;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 
 import stdAudio.StdAudio;
 import WavFile.WavFileException;
@@ -18,7 +22,10 @@ import WavFile.WavFileException;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 
 import org.jfree.chart.*;
@@ -30,9 +37,7 @@ import org.jfree.ui.RefineryUtilities;
 
 import mfcc.*;
 import hmm.*;
-
-
-
+import codebook.*;
 
 
 public class Pelatihan extends JFrame {
@@ -46,10 +51,12 @@ public class Pelatihan extends JFrame {
 	private JPanel contentPane;
 	private JTextField textField;
 	private JButton btnMulaiLatih;
-
+	private int FEATUREDIMENSION = 39;
+	static int counter=0;
 	/**
 	 * Launch the application.
 	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -138,7 +145,12 @@ public class Pelatihan extends JFrame {
 						wordFileList.add(temp1);
 					}
 				}
-				generateCodebook();
+				try {
+					generateCodebook();
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 				/*XYSeries suara = new XYSeries (wordFileList.get(0).get(0));
 				for (int i=0;i<waveFileList.get(0).get(0).length;i++)
 				{
@@ -183,19 +195,27 @@ public class Pelatihan extends JFrame {
 
 	}
 	
-	public void generateCodebook()
+	public void generateCodebook() throws FileNotFoundException
 	{
+	    ProgressMonitor1 pbar = new ProgressMonitor1(wordList.size());
+		allFeatureList = new ArrayList<double[]>();
 		allFeatureVector = new ArrayList<ArrayList<double[][]>>();
 		double alpha = (double)0.9;
-		int totalFrames = 0;
 		Mfcc mfcc = new Mfcc();
+		int totalFrames=0;
 		for (int i=0;i<wordList.size();i++)
 		{
 			ArrayList<double[][]> tes = new ArrayList<double[][]>();
 			for (int j=0;j<waveFileList.get(i).size();j++)
 			{
 				double[][] result = mfcc.GetFeatureVector(waveFileList.get(i).get(j), alpha, 400, 160);
-				System.out.println ("masuk1");
+				tes.add(result);
+				for (int k=0;k<result.length;k++)
+				{
+					allFeatureList.add(result[k]);
+					totalFrames++;
+				}
+				/*System.out.println ("feature Vector hasil prosesnya = ");
 				for (int x=0;x<result.length;x++)
 				{
 					for (int y=0;y<result[x].length;y++)
@@ -203,14 +223,23 @@ public class Pelatihan extends JFrame {
 						System.out.print (result[x][y]+" ");
 					}
 					System.out.println();
-				}
-				if (i==0 && j==0)
-				{
-					while (true)
-					{
-					}
-				}
+				}*/
+				
 			}
+			allFeatureVector.add(tes);
+			pbar.counter = pbar.counter+1;
 		}
+		double allFeatures[][] = new double[totalFrames][FEATUREDIMENSION];
+		for (int i = 0; i < totalFrames; i++) {
+			double[] tmp = allFeatureList.get(i);
+			allFeatures[i] = tmp;
+		}
+		Points pts[] = new Points[totalFrames];
+		for (int j = 0; j < totalFrames; j++) {
+			pts[j] = new Points(allFeatures[j]);
+		}
+		Codebook cbk = new Codebook(pts);
+		cbk.saveToFile();
+		
 	}
 }
