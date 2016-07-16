@@ -311,8 +311,9 @@ public class HiddenMarkov {
 		for (int i = 0; i < num_states; i++) {
 			probability += alpha[len_obSeq - 1][i];
 		}
-
-		probability = 0;
+		return probability;
+		
+		/*probability = 0;
 		// double totalScaleFactor = 1;
 		for (int t = 0; t < len_obSeq; t++) {
 			// System.out.println("s: " + Math.log(scaleFactor[t]));
@@ -324,7 +325,7 @@ public class HiddenMarkov {
 
 		return -probability;
 		// return porbability / totalScaleFactor;
-	}
+*/	}
 
 	/**
 	 * calculate backward variable beta for later use with Re-Estimation method<br>
@@ -405,9 +406,9 @@ public class HiddenMarkov {
 	public void train() {
 		// re-estimate 25 times
 		// NOTE: should be changed to re-estimate until no more improvement
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 25; i++) {
 			reestimate();
-			System.out.println("reestimating.....");
+			//System.out.println("reestimating.....");
 		}
 		//
 		// oldm=

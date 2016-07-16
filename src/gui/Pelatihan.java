@@ -2,6 +2,7 @@ package gui;
 
 
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -9,11 +10,13 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.ProgressMonitor;
 import javax.swing.SwingUtilities;
+import javax.swing.SwingWorker;
 import javax.swing.UIManager;
 
 import stdAudio.StdAudio;
@@ -52,10 +55,58 @@ public class Pelatihan extends JFrame {
 	private JTextField textField;
 	private JButton btnMulaiLatih;
 	private int FEATUREDIMENSION = 39;
-	static int counter=0;
 	/**
 	 * Launch the application.
 	 */
+	
+	class LoadData extends SwingWorker<Integer,Integer>
+	{
+		protected Integer doInBackground() throws Exception
+	    {
+			btnMulaiLatih.setEnabled(false);
+	        // Do a time-consuming task.
+			wordList = new ArrayList<String>();
+			wordFileList = new ArrayList<ArrayList<String>>(); 
+			wordFileList.clear();
+			
+			waveFileList = new ArrayList<ArrayList<double[]>> ();
+			waveFileList.clear();
+			
+			File directory = new File(trainFilePath);
+			File[] fList = directory.listFiles();
+			for (File file : fList)
+			{
+				if (file.isDirectory())
+				{
+					ArrayList<String> temp1 =  new ArrayList<String>();
+					ArrayList<double[]> temp = new ArrayList<double[]>();
+					wordList.add(file.getName());
+					File[] fList1 = file.listFiles();
+					for (File dalam : fList1)
+					{
+						
+						if (dalam.isFile())
+						{
+							temp.add (StdAudio.read(dalam.getAbsolutePath()));
+							temp1.add(dalam.getName());
+						}
+					}
+					//System.out.println ("temp1 = ");
+					//System.out.println (temp1);
+					waveFileList.add(temp);
+					wordFileList.add(temp1);
+				}
+			}
+			generateCodebook();
+			trainHmm();
+	        return 42;
+	    }
+
+	    protected void done()
+	    {
+	    	JOptionPane.showMessageDialog(null,"Pelatihan Selesai", "Notice",JOptionPane.INFORMATION_MESSAGE);
+	    }
+	}
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -75,7 +126,7 @@ public class Pelatihan extends JFrame {
 	 */
 	public Pelatihan() {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(100, 100, 472, 412);
+		setBounds(100, 100, 472, 246);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -113,44 +164,7 @@ public class Pelatihan extends JFrame {
 		btnMulaiLatih = new JButton("Mulai Latih");
 		btnMulaiLatih.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				wordList = new ArrayList<String>();
-				wordFileList = new ArrayList<ArrayList<String>>(); 
-				wordFileList.clear();
-				
-				waveFileList = new ArrayList<ArrayList<double[]>> ();
-				waveFileList.clear();
-				
-				File directory = new File(trainFilePath);
-				File[] fList = directory.listFiles();
-				for (File file : fList)
-				{
-					if (file.isDirectory())
-					{
-						ArrayList<String> temp1 =  new ArrayList<String>();
-						ArrayList<double[]> temp = new ArrayList<double[]>();
-						wordList.add(file.getName());
-						File[] fList1 = file.listFiles();
-						for (File dalam : fList1)
-						{
-							
-							if (dalam.isFile())
-							{
-								temp.add (StdAudio.read(dalam.getAbsolutePath()));
-								temp1.add(dalam.getName());
-							}
-						}
-						//System.out.println ("temp1 = ");
-						//System.out.println (temp1);
-						waveFileList.add(temp);
-						wordFileList.add(temp1);
-					}
-				}
-				try {
-					generateCodebook();
-				} catch (FileNotFoundException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				new LoadData().execute();
 				/*XYSeries suara = new XYSeries (wordFileList.get(0).get(0));
 				for (int i=0;i<waveFileList.get(0).get(0).length;i++)
 				{
@@ -175,29 +189,19 @@ public class Pelatihan extends JFrame {
 		btnMulaiLatih.setBounds(10, 65, 436, 50);
 		contentPane.add(btnMulaiLatih);
 		
-		JProgressBar progressBar = new JProgressBar();
-		progressBar.setStringPainted(true);
-		progressBar.setBounds(10, 148, 434, 23);
-		contentPane.add(progressBar);
+		JButton btnKembaliKeMenu = new JButton("Menu Utama");
+		btnKembaliKeMenu.setBounds(10, 148, 106, 26);
+		contentPane.add(btnKembaliKeMenu);
 		
-		JLabel lblCodebook = new JLabel("Codebook");
-		lblCodebook.setBounds(10, 127, 68, 16);
-		contentPane.add(lblCodebook);
-		
-		JProgressBar progressBar_1 = new JProgressBar();
-		progressBar_1.setStringPainted(true);
-		progressBar_1.setBounds(10, 221, 434, 23);
-		contentPane.add(progressBar_1);
-		
-		JLabel lblHmm = new JLabel("HMM");
-		lblHmm.setBounds(12, 198, 55, 16);
-		contentPane.add(lblHmm);
+		JButton btnPengujian = new JButton("Pengujian");
+		btnPengujian.setBounds(346, 148, 98, 26);
+		contentPane.add(btnPengujian);
 
 	}
 	
-	public void generateCodebook() throws FileNotFoundException
+	public void generateCodebook()
 	{
-	    ProgressMonitor1 pbar = new ProgressMonitor1(wordList.size());
+		ProgressMonitor1 pbar = new ProgressMonitor1(wordList.size()+1,"Generating Codebook");
 		allFeatureList = new ArrayList<double[]>();
 		allFeatureVector = new ArrayList<ArrayList<double[][]>>();
 		double alpha = (double)0.9;
@@ -227,7 +231,7 @@ public class Pelatihan extends JFrame {
 				
 			}
 			allFeatureVector.add(tes);
-			pbar.counter = pbar.counter+1;
+			pbar.counter=i+1;
 		}
 		double allFeatures[][] = new double[totalFrames][FEATUREDIMENSION];
 		for (int i = 0; i < totalFrames; i++) {
@@ -240,6 +244,39 @@ public class Pelatihan extends JFrame {
 		}
 		Codebook cbk = new Codebook(pts);
 		cbk.saveToFile();
-		
+		pbar.counter++;
+		pbar = null;
+	}
+	
+	private Points[] getPointsFromFeatureVector (double[][] features)
+	{
+		Points[] pts = new Points[features.length];
+		for (int j=0;j<features.length;j++)
+		{
+			pts[j] = new Points (features[j]);
+		}
+		return pts;
+	}
+	
+	public void trainHmm()
+	{
+		ProgressMonitor2 pbar1 = new ProgressMonitor2(wordList.size(),"Train HMM");
+		Codebook cb = new Codebook();
+		for (int i=0;i<wordList.size();i++)
+		{
+			int[][] quantized = new int[waveFileList.get(i).size()][];
+			for (int j=0;j<waveFileList.get(i).size();j++)
+			{
+				Points[] pts = getPointsFromFeatureVector(allFeatureVector.get(i).get(j));
+				quantized[j] = cb.quantize(pts);
+			}
+			HiddenMarkov mkv = new HiddenMarkov(2,256);
+			mkv.setTrainSeq(quantized);
+			mkv.train();
+			mkv.save(wordList.get(i));
+			pbar1.counter=i+1;
+			
+		}
+		pbar1 = null;
 	}
 }

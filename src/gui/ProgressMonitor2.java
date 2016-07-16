@@ -11,13 +11,13 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-public class ProgressMonitor1  implements ActionListener {
+public class ProgressMonitor2  implements ActionListener {
 static int total;
  static ProgressMonitor pbar;
    static int counter;
 
-  public ProgressMonitor1(int wordListSize,String judul) {
-	  ProgressMonitor1.total = wordListSize;
+  public ProgressMonitor2(int wordListSize,String judul) {
+	  ProgressMonitor2.total = wordListSize;
 
     pbar = new ProgressMonitor (null,judul,"",0,wordListSize);
 
@@ -40,14 +40,10 @@ static int total;
           }
     pbar.setProgress(counter);
     int progres = (counter/total)*100;
-    if (counter!= total)
-    {
-    	pbar.setNote("Operation is "+counter+"/"+(total-1)+" complete");
-    }
-    else
-    {
-    	pbar.setNote("Operation is "+(counter-1)+"/"+(total-1)+" complete");
-    }
+
+    	pbar.setNote("Operation is "+counter+"/"+(total)+" complete");
+
+ 
     
     }
   }
