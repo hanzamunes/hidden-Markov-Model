@@ -166,20 +166,20 @@ public class Mfcc {
 	public double[][] GetFeatureVector (double[] data, double alpha, int size, int overlap)
 	{
 		double[] dcRemoval_1 = DCRemoval(data);
-		System.out.println("Selesai DCRemoval");
+		//System.out.println("Selesai DCRemoval");
 		double[] preEmphasized = PreEmphasize(dcRemoval_1,alpha);
-		System.out.println("Selesai PReEmphasize");
+		//System.out.println("Selesai PReEmphasize");
 		ArrayList<double[]> frame = FrameBlocking(preEmphasized,size,overlap);
-		System.out.println("Selesai FrameBlocking");
+		//System.out.println("Selesai FrameBlocking");
 		ArrayList<double[]> result = new ArrayList<double[]>();
 		dct = new DCT(numCepstra,26);
 		double[][] mfccFeature = new double[frame.size()][];
 		double[][] framedSignal = new double[frame.size()][];
-		System.out.println ("Frame size = " + frame.size());
+		//System.out.println ("Frame size = " + frame.size());
 		for (int i=0;i<frame.size();i++)
 		{
 			double[] window = Windowing (frame.get(i),size);
-			System.out.println("Selesai windowing");
+			//System.out.println("Selesai windowing");
 			framedSignal[i] = window;
 			Complex[] signal = new Complex[window.length];
 			for (int x=0;x<window.length;x++)
@@ -188,7 +188,7 @@ public class Mfcc {
 				signal[x] = c;
 			}
 			Complex[] hasil = fft.fft1D(signal);
-			System.out.println("Selesai fft");
+			//System.out.println("Selesai fft");
 			double[] frequencyValue = new double[window.length];
 			for (int k = 0; k < window.length; k++) {
 				double nilaiReal = hasil[k].re();
@@ -196,11 +196,11 @@ public class Mfcc {
 				frequencyValue[k] = Math.sqrt(nilaiReal * nilaiReal + nilaiImag * nilaiImag);
 			}
 			double[] melFrequency = MelFrequencyWrapping(frequencyValue,16000);
-			System.out.println("Selesai MelWrapping");
+			//System.out.println("Selesai MelWrapping");
 			double[] cepstrum = dct.performDCT(melFrequency);
-			System.out.println("Selesai DCT");
+			//System.out.println("Selesai DCT");
 			double[] cepstral = CeptralLiftering(cepstrum);
-			System.out.println("Selesai Liftering");
+			//System.out.println("Selesai Liftering");
 			mfccFeature[i] = cepstral;
 		}
 		delta = new Delta();

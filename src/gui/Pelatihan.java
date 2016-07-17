@@ -105,6 +105,7 @@ public class Pelatihan extends JFrame {
 	    protected void done()
 	    {
 	    	JOptionPane.showMessageDialog(null,"Pelatihan Selesai", "Notice",JOptionPane.INFORMATION_MESSAGE);
+	    	btnMulaiLatih.setEnabled(true);
 	    }
 	}
 	
@@ -125,7 +126,9 @@ public class Pelatihan extends JFrame {
 	 * Create the frame.
 	 */
 	public Pelatihan() {
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setTitle("Pelatihan");
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 472, 246);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -164,6 +167,7 @@ public class Pelatihan extends JFrame {
 		btnMulaiLatih = new JButton("Mulai Latih");
 		btnMulaiLatih.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				btnMulaiLatih.setEnabled(false);
 				new LoadData().execute();
 				/*XYSeries suara = new XYSeries (wordFileList.get(0).get(0));
 				for (int i=0;i<waveFileList.get(0).get(0).length;i++)
@@ -190,10 +194,22 @@ public class Pelatihan extends JFrame {
 		contentPane.add(btnMulaiLatih);
 		
 		JButton btnKembaliKeMenu = new JButton("Menu Utama");
+		btnKembaliKeMenu.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Utama().setVisible(true);
+				dispose();
+			}
+		});
 		btnKembaliKeMenu.setBounds(10, 148, 106, 26);
 		contentPane.add(btnKembaliKeMenu);
 		
 		JButton btnPengujian = new JButton("Pengujian");
+		btnPengujian.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Pengujian().setVisible(true);
+				dispose();
+			}
+		});
 		btnPengujian.setBounds(346, 148, 98, 26);
 		contentPane.add(btnPengujian);
 

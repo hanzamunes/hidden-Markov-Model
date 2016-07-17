@@ -50,9 +50,16 @@ public class Utama extends JFrame {
 	 * Create the frame.
 	 * @throws IOException 
 	 */
-	public Utama() throws IOException {
+	public Utama() {
+		setTitle("Utama");
 		setResizable(false);
-		BufferedImage bf = ImageIO.read(new File("source\\background.jpg"));
+		BufferedImage bf = null;
+		try {
+			bf = ImageIO.read(new File("source\\background.jpg"));
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 565, 343);
 		BackgroundPanel panel = new BackgroundPanel(bf);
@@ -81,13 +88,19 @@ public class Utama extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				new Pelatihan().setVisible(true);
-				btnNewButton.setEnabled(false);
+				dispose();
 			}
 		});
 		btnNewButton.setBounds(234, 111, 114, 42);
 		panel.add(btnNewButton);
 		
 		JButton btnPengujian = new JButton("Pengujian");
+		btnPengujian.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Pengujian().setVisible(true);
+				dispose();
+			}
+		});
 		btnPengujian.setBounds(234, 165, 114, 41);
 		panel.add(btnPengujian);
 		

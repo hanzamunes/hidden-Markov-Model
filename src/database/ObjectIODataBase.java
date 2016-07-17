@@ -101,7 +101,7 @@ public class ObjectIODataBase implements DataBase {
     public String[] readRegistered() {
 
         modelFiles = readRegisteredWithExtension();
-        System.out.println("modelFiles length (Oiodb) :" + modelFiles.length);
+        //System.out.println("modelFiles length (Oiodb) :" + modelFiles.length);
         return removeExtension(modelFiles);
     }
 
