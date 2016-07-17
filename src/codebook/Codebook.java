@@ -74,7 +74,7 @@ public class Codebook {
 	 * Codebook size - number of codewords (codevectors)<br>
 	 * default is: 256
 	 */
-	protected int codebook_size = 256;
+	protected int codebook_size = 1024;
 	/**
 	 * centroids array
 	 */

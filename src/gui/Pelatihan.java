@@ -286,7 +286,7 @@ public class Pelatihan extends JFrame {
 				Points[] pts = getPointsFromFeatureVector(allFeatureVector.get(i).get(j));
 				quantized[j] = cb.quantize(pts);
 			}
-			HiddenMarkov mkv = new HiddenMarkov(2,256);
+			HiddenMarkov mkv = new HiddenMarkov(2,1024);
 			mkv.setTrainSeq(quantized);
 			mkv.train();
 			mkv.save(wordList.get(i));
