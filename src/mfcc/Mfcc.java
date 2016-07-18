@@ -1,6 +1,11 @@
 package mfcc;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
+
+import stdAudio.StdAudio;
 
 
 public class Mfcc {
@@ -166,8 +171,10 @@ public class Mfcc {
 	public double[][] GetFeatureVector (double[] data, double alpha, int size, int overlap)
 	{
 		double[] dcRemoval_1 = DCRemoval(data);
+		StdAudio.save("dcRemoval.wav",dcRemoval_1);
 		//System.out.println("Selesai DCRemoval");
 		double[] preEmphasized = PreEmphasize(dcRemoval_1,alpha);
+		StdAudio.save("preEmphasize.wav",preEmphasized);
 		//System.out.println("Selesai PReEmphasize");
 		ArrayList<double[]> frame = FrameBlocking(preEmphasized,size,overlap);
 		//System.out.println("Selesai FrameBlocking");
