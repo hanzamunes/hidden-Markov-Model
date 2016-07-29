@@ -32,7 +32,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Random;
-
+import onlyEnergy.*;
 import captureAudio.JSoundCapture;
 
 public class Pengujian extends JFrame {
@@ -106,10 +106,25 @@ public class Pengujian extends JFrame {
 	{
 		protected Integer doInBackground() throws Exception
 	    {
+			VAD vad = new VAD();
 			double[] data = StdAudio.read(filePath);
-			double[][] result = mfcc.GetFeatureVector(data, alpha, 400, 160);
-			hasil = "";
-			hasil = hmmGetWord(result);
+			boolean[] speech = vad.computeVAD(data, 160);
+			double[][] potong = vad.splitWord(data, speech, 160);
+			if (vad.splitted)
+			{
+				hasil = "";
+				for (int i=0;i<potong.length;i++)
+				{
+					double[][] result = mfcc.GetFeatureVector(potong[i], alpha, 400, 160);
+					hasil = hasil + hmmGetWord(result)+" ";
+				}
+			}
+			else
+			{
+				double[][] result = mfcc.GetFeatureVector(data, alpha, 400, 160);
+				hasil = "";
+				hasil = hmmGetWord(result);
+			}
 	        return 42;
 	    }
 
@@ -269,6 +284,7 @@ public class Pengujian extends JFrame {
 		});
 		btnDummy.setBounds(388, 5, 98, 26);
 		panel1.add(btnDummy);
+		btnDummy.setVisible(false);
 		tabbedPane.add("Persentasi Keakuratan",panel2);
 		
 		JLabel lblPersentasiKeakuratan = new JLabel("Persentasi Keakuratan Program (100 Data Uji Random)");
@@ -319,10 +335,10 @@ public class Pengujian extends JFrame {
 		
 		JPanel panel3 = new JPanel();
 		panel3.setLayout(null);
-		tabbedPane.add("Pengujian Data (LIVE)",panel3);
+		tabbedPane.add("Record Data (LIVE)",panel3);
 		
 		JSoundCapture soundCapture = new JSoundCapture(true, true);
-		soundCapture.setBounds(12, 12, 504, 80);
+		soundCapture.setBounds(12, 12, 504, 194);
 		panel3.add(soundCapture);
 	}
 }

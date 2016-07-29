@@ -5,7 +5,12 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 
-import stdAudio.StdAudio;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+import org.jfree.ui.RefineryUtilities;
+
+import gui.XyChart;
+import stdAudio.StdAudio; 
 
 
 public class Mfcc {
@@ -171,10 +176,8 @@ public class Mfcc {
 	public double[][] GetFeatureVector (double[] data, double alpha, int size, int overlap)
 	{
 		double[] dcRemoval_1 = DCRemoval(data);
-		StdAudio.save("dcRemoval.wav",dcRemoval_1);
 		//System.out.println("Selesai DCRemoval");
 		double[] preEmphasized = PreEmphasize(dcRemoval_1,alpha);
-		StdAudio.save("preEmphasize.wav",preEmphasized);
 		//System.out.println("Selesai PReEmphasize");
 		ArrayList<double[]> frame = FrameBlocking(preEmphasized,size,overlap);
 		//System.out.println("Selesai FrameBlocking");
@@ -188,6 +191,16 @@ public class Mfcc {
 			double[] window = Windowing (frame.get(i),size);
 			//System.out.println("Selesai windowing");
 			framedSignal[i] = window;
+			if (i==0)
+			{
+				System.out.println ("frame 0 window");
+				System.out.print("[");
+				for (int j=0;j<window.length;j++)
+				{
+					System.out.print(window[j]+" , ");
+				}
+				System.out.println ("]");
+			}
 			Complex[] signal = new Complex[window.length];
 			for (int x=0;x<window.length;x++)
 			{
