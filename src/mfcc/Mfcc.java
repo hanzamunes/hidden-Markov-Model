@@ -20,6 +20,7 @@ public class Mfcc {
 	public int numCepstra=12;
 	public Delta delta;
 	public Energy en;
+	private static int dataPerFrame;
 	public  Mfcc()
 	{
 	}
@@ -89,6 +90,39 @@ public class Mfcc {
 			}
 			index = index + overlap;
 			result.add(frameData);
+		}
+		return result;
+	}
+	
+	//experiment
+	public static ArrayList<double[]> FrameBlocking(double[] data, int totalFrame)
+	{
+		int dataLength = data.length;
+		dataPerFrame = (int) (Math.ceil((double) dataLength / (double) totalFrame)*1.25);
+		int overlap = (int) Math.ceil(0.25 * (double)dataPerFrame);
+		/*System.out.println("parameter");
+		System.out.println("panjang data = "+dataLength);
+		System.out.println("panjang frame = "+dataPerFrame);
+		System.out.println("overlap = "+overlap);*/
+		ArrayList<double[]> result = new ArrayList<double[]>();
+		int pointer = 0;
+		while (result.size() < totalFrame)
+		{
+			double[] temp = new double[dataPerFrame];
+			for (int i=0;i<dataPerFrame;i++)
+			{
+				if (pointer < data.length)
+				{
+					temp[i] = data[pointer];
+				}
+				else
+				{
+					temp[i] = 0;
+				}
+				pointer++;
+			}
+			result.add(temp);
+			pointer = pointer - overlap;
 		}
 		return result;
 	}
@@ -191,7 +225,7 @@ public class Mfcc {
 			double[] window = Windowing (frame.get(i),size);
 			//System.out.println("Selesai windowing");
 			framedSignal[i] = window;
-			if (i==0)
+			/*if (i==0)
 			{
 				System.out.println ("frame 0 window");
 				System.out.print("[");
@@ -200,7 +234,7 @@ public class Mfcc {
 					System.out.print(window[j]+" , ");
 				}
 				System.out.println ("]");
-			}
+			}*/
 			Complex[] signal = new Complex[window.length];
 			for (int x=0;x<window.length;x++)
 			{
@@ -225,6 +259,89 @@ public class Mfcc {
 		}
 		delta = new Delta();
 		en = new Energy(size);
+		noOfFrames = frame.size();
+		double[][] normalCeps = doCepstralMeanNormalization(mfccFeature);
+		delta.setRegressionWindow(2);
+		double[][] deltaMfcc = delta.performDelta2D(mfccFeature);
+		delta.setRegressionWindow(1);
+		double[][] deltaDeltaMfcc = delta.performDelta2D(deltaMfcc);
+		double[] energyVal = en.calcEnergy(framedSignal);
+		delta.setRegressionWindow(1);
+		double[] deltaEnergy = delta.performDelta1D(energyVal);
+		delta.setRegressionWindow(1);
+		double[] deltaDeltaEnergy = delta.performDelta1D(deltaEnergy);
+		double[][] featureVector = new double[frame.size()][3*numCepstra+3];
+		for (int i=0;i<frame.size();i++)
+		{
+			for (int j = 0; j < numCepstra; j++) {
+				featureVector[i][j] = mfccFeature[i][j];
+			}
+			for (int j = numCepstra; j < 2 * numCepstra; j++) {
+				featureVector[i][j] = deltaMfcc[i][j - numCepstra];
+			}
+			for (int j = 2 * numCepstra; j < 3 * numCepstra; j++) {
+				featureVector[i][j] = deltaDeltaMfcc[i][j - 2 * numCepstra];
+			}
+			featureVector[i][3 * numCepstra] = energyVal[i];
+			featureVector[i][3 * numCepstra + 1] = deltaEnergy[i];
+			featureVector[i][3 * numCepstra + 2] = deltaDeltaEnergy[i];
+		}
+		return featureVector;
+	}
+	
+	
+	public double[][] GetFeatureVector (double[] data, double alpha, int frameSize)
+	{
+		double[] dcRemoval_1 = DCRemoval(data);
+		//System.out.println("Selesai DCRemoval");
+		double[] preEmphasized = PreEmphasize(dcRemoval_1,alpha);
+		//System.out.println("Selesai PReEmphasize");
+		ArrayList<double[]> frame = FrameBlocking(preEmphasized,frameSize);
+		//System.out.println("Selesai FrameBlocking");
+		ArrayList<double[]> result = new ArrayList<double[]>();
+		dct = new DCT(numCepstra,26);
+		double[][] mfccFeature = new double[frame.size()][];
+		double[][] framedSignal = new double[frame.size()][];
+		//System.out.println ("Frame size = " + frame.size());
+		for (int i=0;i<frame.size();i++)
+		{
+			double[] window = Windowing (frame.get(i),dataPerFrame);
+			//System.out.println("Selesai windowing");
+			framedSignal[i] = window;
+			/*if (i==0)
+			{
+				System.out.println ("frame 0 window");
+				System.out.print("[");
+				for (int j=0;j<window.length;j++)
+				{
+					System.out.print(window[j]+" , ");
+				}
+				System.out.println ("]");
+			}*/
+			Complex[] signal = new Complex[window.length];
+			for (int x=0;x<window.length;x++)
+			{
+				Complex c = new Complex (window[x],0);
+				signal[x] = c;
+			}
+			Complex[] hasil = fft.fft1D(signal);
+			//System.out.println("Selesai fft");
+			double[] frequencyValue = new double[window.length];
+			for (int k = 0; k < window.length; k++) {
+				double nilaiReal = hasil[k].re();
+				double nilaiImag = hasil[k].im();
+				frequencyValue[k] = Math.sqrt(nilaiReal * nilaiReal + nilaiImag * nilaiImag);
+			}
+			double[] melFrequency = MelFrequencyWrapping(frequencyValue,16000);
+			//System.out.println("Selesai MelWrapping");
+			double[] cepstrum = dct.performDCT(melFrequency);
+			//System.out.println("Selesai DCT");
+			double[] cepstral = CeptralLiftering(cepstrum);
+			//System.out.println("Selesai Liftering");
+			mfccFeature[i] = cepstral;
+		}
+		delta = new Delta();
+		en = new Energy(dataPerFrame);
 		noOfFrames = frame.size();
 		double[][] normalCeps = doCepstralMeanNormalization(mfccFeature);
 		delta.setRegressionWindow(2);

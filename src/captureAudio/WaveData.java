@@ -14,6 +14,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import org.apache.commons.io.*;
 
+import gui.Pengujian;
+
 import javax.sound.sampled.AudioFileFormat;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
@@ -174,8 +176,20 @@ public class WaveData {
 		try {
 			audioInputStream.reset();
 		} catch (Exception e) {
+			System.out.println("masuk exception");
 			return;
 		}
+		String fileName = name+".wav";
+		File f = new File ("tempRecord",fileName);
+		System.out.println(f.getAbsolutePath());
+		try {
+			if (AudioSystem.write(audioInputStream, fileType, f) == -1) {
+			}
+		} catch (Exception ex) {
+		}
+		System.out.println("save berhasil");
+		Pengujian.btnRecognize.setEnabled(true);
+		/*
 		JFileChooser jf = new JFileChooser(){
 		    @Override
 		    public void approveSelection(){
@@ -226,7 +240,7 @@ public class WaveData {
 			System.out.println(myFile.getAbsolutePath());
 			 JOptionPane.showMessageDialog(null, "File Saved !", "Success",JOptionPane.INFORMATION_MESSAGE);
 		}
-		
+		*/
 	}
 
 	/**

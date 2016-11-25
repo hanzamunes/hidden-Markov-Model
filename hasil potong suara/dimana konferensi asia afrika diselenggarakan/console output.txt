@@ -1,0 +1,36 @@
+distance
+4 4 selisih = 0
+6 6 selisih = 0
+11 11 selisih = 0
+13 14 selisih = 1
+16 16 selisih = 0
+22 22 selisih = 0
+25 32 selisih = 7
+35 39 selisih = 4
+45 47 selisih = 2
+92 181 selisih = 89
+236 347 selisih = 111
+355 355 selisih = 0
+398 479 selisih = 81
+481 481 selisih = 0
+533 621 selisih = 88
+671 802 selisih = 131
+846 846 selisih = 0
+distance
+4 4 selisih = 0
+6 6 selisih = 0
+11 11 selisih = 0
+13 14 selisih = 1
+16 16 selisih = 0
+22 22 selisih = 0
+25 32 selisih = 7
+35 39 selisih = 4
+45 47 selisih = 2
+92 181 selisih = 89
+236 347 selisih = 111
+355 355 selisih = 0
+398 479 selisih = 81
+481 481 selisih = 0
+533 621 selisih = 88
+671 802 selisih = 131
+846 846 selisih = 0

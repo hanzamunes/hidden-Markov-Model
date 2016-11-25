@@ -28,6 +28,8 @@ import java.io.File;
 import java.io.IOException;
 import java.text.AttributedCharacterIterator;
 import java.text.AttributedString;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.Vector;
 
 import javax.sound.sampled.AudioFileFormat;
@@ -81,7 +83,7 @@ public class JSoundCapture extends JPanel implements ActionListener {
 	boolean isDrawingRequired;
 	boolean isSaveRequired;
 	JPanel innerPanel;
-	String saveFileName = null; // @jve:decl-index=0:
+	public static String saveFileName = null; // @jve:decl-index=0:
 
 	/**
 	 * Instantiates a new j sound capture.
@@ -104,10 +106,10 @@ public class JSoundCapture extends JPanel implements ActionListener {
 		JPanel buttonsPanel = new JPanel();
 		buttonsPanel.setPreferredSize(new Dimension(200, 50));
 		buttonsPanel.setBorder(new EmptyBorder(5, 0, 1, 0));
-		playB = addButton("Play", buttonsPanel, false);
+		//playB = addButton("Play", buttonsPanel, false);
 		captB = addButton("Record", buttonsPanel, true);
-		pausB = addButton("Pause", buttonsPanel, false);
-		saveB = addButton("Save ", buttonsPanel, false);
+		//pausB = addButton("Pause", buttonsPanel, false);
+		//saveB = addButton("Save ", buttonsPanel, false);
 		innerPanel.add(buttonsPanel);
 
 		// samplingPanel
@@ -176,7 +178,6 @@ public class JSoundCapture extends JPanel implements ActionListener {
 	 * java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 	 */
 	public void actionPerformed(ActionEvent e) {
-		System.out.println("actionPerformed *********");
 		Object obj = e.getSource();
 		if (isSaveRequired && obj.equals(saveB)) {
 
@@ -207,6 +208,22 @@ public class JSoundCapture extends JPanel implements ActionListener {
 			}
 		}
 	}
+	
+	public void save()
+	{
+		Timer timer = new Timer();
+		timer.schedule(new TimerTask(){
+			public void run()
+			{
+				if (audioInputStream != null)
+				{
+					getFileNameAndSaveFile();
+					timer.cancel();
+					timer.purge();
+				}
+			}
+		}, 0,1000);
+	}
 
 	public void playCaptured() {
 		playback.start();
@@ -228,9 +245,9 @@ public class JSoundCapture extends JPanel implements ActionListener {
 		file = null;
 		capture.start();
 		if (isDrawingRequired) samplingGraph.start();
-		playB.setEnabled(false);
-		pausB.setEnabled(true);
-		saveB.setEnabled(false);
+		//playB.setEnabled(false);
+		//pausB.setEnabled(true);
+		//saveB.setEnabled(false);
 		captB.setText("Stop");
 	}
 
@@ -238,10 +255,12 @@ public class JSoundCapture extends JPanel implements ActionListener {
 		lines.removeAllElements();
 		capture.stop();
 		if (isDrawingRequired) samplingGraph.stop();
-		playB.setEnabled(true);
-		pausB.setEnabled(false);
-		saveB.setEnabled(true);
+		//playB.setEnabled(true);
+		/*pausB.setEnabled(false);
+		saveB.setEnabled(true);*/
 		captB.setText("Record");
+		this.saveFileName = Long.toString(System.currentTimeMillis());
+		save();
 	}
 
 	public void pausePlaying() {

@@ -30,7 +30,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
+import org.apache.commons.io.FileUtils;
 import org.jfree.chart.*;
 import org.jfree.data.general.*;
 import org.jfree.data.xy.XYDataset;
@@ -55,6 +58,9 @@ public class Pelatihan extends JFrame {
 	private JTextField textField;
 	private JButton btnMulaiLatih;
 	private int FEATUREDIMENSION = 39;
+	private JTextField textField_1;
+	private Timer timer;
+	static int counter = 0;
 	/**
 	 * Launch the application.
 	 */
@@ -97,6 +103,8 @@ public class Pelatihan extends JFrame {
 					wordFileList.add(temp1);
 				}
 			}
+			util.Constant.WORD_TOTAL = wordList.size();
+			util.Constant.WORD_DATA_TOTAL = wordFileList.get(0).size();
 			generateCodebook();
 			trainHmm();
 	        return 42;
@@ -104,6 +112,8 @@ public class Pelatihan extends JFrame {
 
 	    protected void done()
 	    {
+	    	timer.cancel();
+	    	textField_1.setText(Integer.toString(counter));
 	    	JOptionPane.showMessageDialog(null,"Pelatihan Selesai", "Notice",JOptionPane.INFORMATION_MESSAGE);
 	    	btnMulaiLatih.setEnabled(true);
 	    }
@@ -113,6 +123,7 @@ public class Pelatihan extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
 					Pelatihan frame = new Pelatihan();
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -167,7 +178,15 @@ public class Pelatihan extends JFrame {
 		btnMulaiLatih = new JButton("Mulai Latih");
 		btnMulaiLatih.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				counter = 0;
 				btnMulaiLatih.setEnabled(false);
+				timer = new Timer();
+				timer.schedule(new TimerTask(){
+					public void run()
+					{
+						counter++;
+					}
+				}, 0, 1000);
 				new LoadData().execute();
 				/*XYSeries suara = new XYSeries (wordFileList.get(0).get(0));
 				for (int i=0;i<waveFileList.get(0).get(0).length;i++)
@@ -212,11 +231,27 @@ public class Pelatihan extends JFrame {
 		});
 		btnPengujian.setBounds(346, 148, 98, 26);
 		contentPane.add(btnPengujian);
+		
+		JLabel lblTimeElapsed = new JLabel("Time elapsed");
+		lblTimeElapsed.setBounds(134, 153, 84, 16);
+		contentPane.add(lblTimeElapsed);
+		
+		textField_1 = new JTextField();
+		textField_1.setEditable(false);
+		textField_1.setBounds(216, 153, 66, 20);
+		contentPane.add(textField_1);
+		textField_1.setColumns(10);
 
 	}
 	
 	public void generateCodebook()
 	{
+		try {
+			FileUtils.cleanDirectory(new File("models\\codeBook"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		ProgressMonitor1 pbar = new ProgressMonitor1(wordList.size()+1,"Generating Codebook");
 		allFeatureList = new ArrayList<double[]>();
 		allFeatureVector = new ArrayList<ArrayList<double[][]>>();
@@ -228,7 +263,9 @@ public class Pelatihan extends JFrame {
 			ArrayList<double[][]> tes = new ArrayList<double[][]>();
 			for (int j=0;j<waveFileList.get(i).size();j++)
 			{
-				double[][] result = mfcc.GetFeatureVector(waveFileList.get(i).get(j), alpha, 400, 160);
+				double[][] result = mfcc.GetFeatureVector(waveFileList.get(i).get(j), alpha, util.Constant.FRAME_LENGTH, util.Constant.FRAME_OVERLAP);
+				//double[][] result = mfcc.GetFeatureVector(waveFileList.get(i).get(j), alpha, 1024);
+				
 				tes.add(result);
 				for (int k=0;k<result.length;k++)
 				{
@@ -276,6 +313,12 @@ public class Pelatihan extends JFrame {
 	
 	public void trainHmm()
 	{
+		try {
+			FileUtils.cleanDirectory(new File("models\\HMM"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		ProgressMonitor2 pbar1 = new ProgressMonitor2(wordList.size(),"Train HMM");
 		Codebook cb = new Codebook();
 		for (int i=0;i<wordList.size();i++)
@@ -286,7 +329,8 @@ public class Pelatihan extends JFrame {
 				Points[] pts = getPointsFromFeatureVector(allFeatureVector.get(i).get(j));
 				quantized[j] = cb.quantize(pts);
 			}
-			HiddenMarkov mkv = new HiddenMarkov(2,1024);
+			
+			HiddenMarkov mkv = new HiddenMarkov(util.Constant.HMM_STATES,util.Constant.OBSERVATION_POINTS);
 			mkv.setTrainSeq(quantized);
 			mkv.train();
 			mkv.save(wordList.get(i));

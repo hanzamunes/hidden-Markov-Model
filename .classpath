@@ -12,5 +12,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/hobert/workspace/Hidden Markov Model/src/fftlib.jar"/>
+	<classpathentry kind="lib" path="commons-io-2.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Hidden%20Markov%20Model%201/commons-io-2.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

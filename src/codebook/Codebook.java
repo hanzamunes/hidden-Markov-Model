@@ -74,7 +74,7 @@ public class Codebook {
 	 * Codebook size - number of codewords (codevectors)<br>
 	 * default is: 256
 	 */
-	protected int codebook_size = 1024;
+	protected int codebook_size = util.Constant.OBSERVATION_POINTS;
 	/**
 	 * centroids array
 	 */
@@ -244,7 +244,7 @@ public class Codebook {
 	 * called by: Codebook
 	 */
 	protected void split() {
-		System.out.println("Centroids length now becomes " + centroids.length + 2);
+		//System.out.println("Centroids length now becomes " + centroids.length + 2);
 		Centroid temp[] = new Centroid[centroids.length * 2];
 		double tCo[][];
 		for (int i = 0; i < temp.length; i += 2) {

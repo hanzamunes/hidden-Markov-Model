@@ -397,6 +397,20 @@ public class HiddenMarkov {
 			obSeq[k] = trainSeq[k];
 		}
 	}
+	
+	public double frobeniusDistance (double[][] a, double[][] x)
+	{
+		double distance=0;
+		for (int i=0;i<a.length;i++)
+		{
+			for (int j=0;j<a[i].length;j++)
+			{
+				distance = distance + Math.pow(Math.abs(a[i][j]-x[i][j]), 2);
+			}
+		}
+		distance = Math.sqrt(distance);
+		return distance;
+	}
 
 	/**
 	 * train the hmm model until no more improvement<br>
@@ -412,6 +426,18 @@ public class HiddenMarkov {
 		}
 		//
 		// oldm=
+		
+		/*double oldTransition[][] = new double[num_states][num_states];
+		double oldOutput[][] = new double[num_states][num_symbols];
+		
+		do
+		{
+			oldTransition = transition;
+			oldOutput = output;
+			reestimate();
+		}
+		while (frobeniusDistance(oldTransition,transition)> 0.0000000001 && frobeniusDistance(oldOutput,output)>0.0000000001);
+		*/
 	}
 
 	/**
@@ -489,7 +515,6 @@ public class HiddenMarkov {
 				newOutput[i][j] += MIN_PROBABILITY;
 			}
 		}
-
 		// replace old matrices after re-estimate
 		transition = newTransition;
 		output = newOutput;
