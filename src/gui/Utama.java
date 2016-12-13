@@ -37,8 +37,10 @@ public class Utama extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
 					Utama frame = new Utama();
 					frame.setVisible(true);
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -103,10 +105,6 @@ public class Utama extends JFrame {
 		});
 		btnPengujian.setBounds(234, 165, 114, 41);
 		panel.add(btnPengujian);
-		
-		JButton btnBantuan = new JButton("Bantuan");
-		btnBantuan.setBounds(234, 218, 114, 37);
-		panel.add(btnBantuan);
 		
 		JButton btnTentangPembuat = new JButton("Tentang Pembuat");
 		btnTentangPembuat.setBounds(394, 276, 153, 26);

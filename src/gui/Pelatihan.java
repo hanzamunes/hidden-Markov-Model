@@ -152,7 +152,7 @@ public class Pelatihan extends JFrame {
 		
 		textField = new JTextField();
 		textField.setEditable(false);
-		textField.setBounds(10, 29, 332, 20);
+		textField.setBounds(10, 29, 332, 26);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
@@ -238,7 +238,7 @@ public class Pelatihan extends JFrame {
 		
 		textField_1 = new JTextField();
 		textField_1.setEditable(false);
-		textField_1.setBounds(216, 153, 66, 20);
+		textField_1.setBounds(214, 147, 66, 28);
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 

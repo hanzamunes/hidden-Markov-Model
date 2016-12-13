@@ -1,0 +1,1551 @@
+searching awal
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok240.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok343.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok300.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok180.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok365.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok333.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok179.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok181.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok337.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok386.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok4.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok75.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok188.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok5.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok76.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok330.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok208.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok384.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok268.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok325.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok102.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok12.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok31.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok83.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok20.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok91.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok331.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok221.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok391.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok139.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok68.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok13.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok84.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok342.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok113.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok42.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok389.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok375.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok371.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok382.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok27.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok98.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok385.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok239.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok246.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok80.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok9.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok140.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok69.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok237.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok263.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok313.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok137.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok254.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok355.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok387.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok66.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok295.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok344.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok233.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok200.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok10.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok220.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok270.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok81.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok235.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok271.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok273.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok304.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok315.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok327.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok364.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok25.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok96.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok141.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok230.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok376.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok379.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok70.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok117.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok132.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok152.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok282.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok340.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok358.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok361.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok392.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok46.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok61.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok11.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok82.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok115.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok213.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok400.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok44.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok397.txt
+File: C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok120.txt
+
+
+query token : 
+taman siswa diri 
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok240.txt
+title : bm diah tokoh penyiaran berita proklamasi
+passage 4 score = 7.833333333333333
+sentence 1: keputusan ini diambilnya karena ia tidak mau belajar di bawah asuhan guru-guru belanda .
+sentence 2: pada 1 oktober 1945 , b.m. diah mendirikan harian merdeka .
+sentence 3: diah menjadi pemimpin redaksi , joesoef isak menjadi wakilnya , dan rosihan anwar menjadi redaktur .
+sentence 4: diah memimpin surat kabar ini hingga akhir hayatnya , meskipun belakangan ia lebih banyak menangani pt masa merdeka , penerbit harian " merdeka " .
+sentence 5: pada april 1945 , bersama istrinya herawati , diah mendirikan koran berbahasa inggris , indonesian observer .
+passage 5 score = 7.833333333333333
+sentence 1: pada april 1945 , bersama istrinya herawati , diah mendirikan koran berbahasa inggris , indonesian observer .
+sentence 2: ia dinilai sebagai penulis editorial yang baik , seorang nasional pro-soekarno menentang militerisme .
+sentence 3: ia pernah bertolak pandangan dengan pihak militer setelah peristiwa 17 oktober , sehingga ia terpaksa berpindah-pindah tempat untuk menghindari kejaran petugas-petugas militer .
+sentence 4: ketika pemerintahan orde baru , diah memutuskan untuk mengubah sebutan " tionghoa " menjadi " cina " , " republik rakyat tiongkok " menjadi " republik rakyat cina " dan dikenal sebagai satu-satunya pers yang gigih tetap mempertahankan istilah " tionghoa " dan " tiongkok " .
+sentence 5: [ gs ]
+passage 1 score = 6.333333333333333
+sentence 1: bm diah tokoh penyiaran berita proklamasi burhanuddin mohammad diah atau bm diah yang lahir di banda aceh 7 april 1917 adalah seorang tokoh pers , pejuang kemerdekaan , diplomat dan pengusaha indonesia .
+sentence 2: nama asli b.m. diah yang sesungguhnya hanyalah burhanuddin .
+sentence 3: nama ayahnya adalah mohammad diah , yang berasal dari barus sumatara utara .
+sentence 4: ayahnya adalah seorang pegawai pabean di aceh barat yang kemudian menjadi penerjemah .
+sentence 5: burhanuddin kemudian menambahkan nama ayahnya kepada namanya sendiri .
+passage 3 score = 2.6666666666666665
+sentence 1: ibunya kemudian mengambil alih tanggung jawab memelihara keluarganya .
+sentence 2: untuk itu ia terjun ke dunia usaha berjualan emas , intan , dan pakaian .
+sentence 3: namun delapan tahun kemudian siti sa'idah pun berpulang , sehingga burhanuddin diasuh oleh kakak perempuannya , siti hafsyah .
+sentence 4: burhanuddin belajar di his , kemudian melanjutkan ke taman siswa di medan .
+sentence 5: keputusan ini diambilnya karena ia tidak mau belajar di bawah asuhan guru-guru belanda .
+passage 2 score = 1.3333333333333333
+sentence 1: burhanuddin kemudian menambahkan nama ayahnya kepada namanya sendiri .
+sentence 2: mohammad diah adalah seorang yang terpandang dan kaya di lingkungannya .
+sentence 3: namun hidupnya boros , sehingga ketika ia lahir burhanuddin tidak dapat menikmati kekayaan ayahnya .
+sentence 4: ditambah lagi karena seminggu setelah kelahirannya , ayahnya meninggal dunia .
+sentence 5: ibunya kemudian mengambil alih tanggung jawab memelihara keluarganya .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 24 score = 8.5
+sentence 1: sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak , pemuda kaum betawi , sekar rukun , timorees verbond , dan lain-lain .
+sentence 2: pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+sentence 3: 6 .
+sentence 4: taman siswa sekembalinya dari tanah pengasingannya di negeri belanda ( 1919 ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+sentence 5: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+passage 43 score = 8.5
+sentence 1: siti walidah ahmad dahlan ( 1917 ) .
+sentence 2: tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+sentence 3: 5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya pawiyatan wanito di magelang ( 1915 ) , wanito susilo di pemalang ( 1918 ) , wanito rukun santoso di malang , budi wanito di solo , putri budi sejati di surabaya ( 1919 ) , wanito mulyo di yogyakarta ( 1920 ) , wanito utomo dan wanito katolik di yogyakarta ( 1921 ) , dan wanito taman siswa ( 1922 ) .
+sentence 4: organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+sentence 5: di ambon dikenal dengan nama ina tani yang lebih condong ke politik .
+passage 21 score = 8.166666666666668
+sentence 1: pada tahun 1935 , muhammadiyah sudah mempunyai 710 cabang yang tersebar di pulau jawa , sumatra , kalimantan dan sulawesi .
+sentence 2: 5 .
+sentence 3: gerakan pemuda gerakan pemuda indonesia , sebenarnya telah dimulai sejak berdirinya budi utomo , namun sejak kongresnya yang pertama perannya telah diambil oleh golongan tua ( kaum priayi dan pegawai negeri ) sehingga para pemuda kecewa dan keluar dari organisasi tersebut .
+sentence 4: baru beberapa tahun kemudian , tepatnya pada tanggal 7 maret 1915 di batavia berdiri trikoro dharmo oleh r. satiman wiryosanjoyo , kadarman , dan sunardi .
+sentence 5: trikoro dharmo yang diketui oleh r. satiman wiryosanjoyo merupakan oeganisasi pemuda yang pertama yang anggotanya terdiri atas para siswa sekolah menengah berasal dari jawa dan madura .
+passage 25 score = 8.0
+sentence 1: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+sentence 2: dengan berdirinya taman siswa , suwardi suryaningrat memulai gerakan baru bukan lagi dalam bidang politik melainkan bidang pendidikan , yakni mendidik angkatan muda dengan jiwa kebangsaan indonesia berdasarkan akar budaya bangsa .
+sentence 3: sekolah taman siswa dijadikan sarana untuk menyampaikan ideologi nasionalisme kebudayaan , perkembangan politik , dan juga digunakan untuk mendidik calon-calon pemimpin bangsa yang akan datang .
+sentence 4: dalam hal ini , sekolah merupakan wahana untuk meningkatkan derajat bangsa melalui pengajaran itu sendiri .
+sentence 5: selain pengajaran bahasa ( baik bahasa asing maupun bahasa indonesia ) , pendidikan taman siswa juga memberikan pelajaran sejarah , seni , sastra ( terutama sastra jawa dan wayang ) , agama , pendidikan jasmani , dan keterampilan ( pekerjaan tangan ) merupakan kegiatan utama perguruan taman siswa .
+passage 7 score = 7.833333333333333
+sentence 1: itulah sebabnya tanggal 20 mei ditetapkan sebagai hari kebangkitan nasional yang kita peringati setiap tahun hingga sekarang .
+sentence 2: 2 .
+sentence 3: sarekat islam ( si ) tiga tahun setelah berdirinya budi utomo , yakni tahun 1911 berdirilah sarekat dagang islam ( sdi ) di solo oleh h. samanhudi , seorang pedagang batik dari laweyan solo .
+sentence 4: organisasi sarekat dagang islam berdasar pada dua hal berikut ini .
+sentence 5: a. agama islam .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 24 score = 8.5
+sentence 1: sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak , pemuda kaum betawi , sekar rukun , timorees verbond , dan lain-lain .
+sentence 2: pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+sentence 3: 6 .
+sentence 4: taman siswa sekembalinya dari tanah pengasingannya di negeri belanda ( 1919 ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+sentence 5: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+passage 43 score = 8.5
+sentence 1: siti walidah ahmad dahlan ( 1917 ) .
+sentence 2: tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+sentence 3: 5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya pawiyatan wanito di magelang ( 1915 ) , wanito susilo di pemalang ( 1918 ) , wanito rukun santoso di malang , budi wanito di solo , putri budi sejati di surabaya ( 1919 ) , wanito mulyo di yogyakarta ( 1920 ) , wanito utomo dan wanito katolik di yogyakarta ( 1921 ) , dan wanito taman siswa ( 1922 ) .
+sentence 4: organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+sentence 5: di ambon dikenal dengan nama ina tani yang lebih condong ke politik .
+passage 21 score = 8.166666666666668
+sentence 1: pada tahun 1935 , muhammadiyah sudah mempunyai 710 cabang yang tersebar di pulau jawa , sumatra , kalimantan dan sulawesi .
+sentence 2: 5 .
+sentence 3: gerakan pemuda gerakan pemuda indonesia , sebenarnya telah dimulai sejak berdirinya budi utomo , namun sejak kongresnya yang pertama perannya telah diambil oleh golongan tua ( kaum priayi dan pegawai negeri ) sehingga para pemuda kecewa dan keluar dari organisasi tersebut .
+sentence 4: baru beberapa tahun kemudian , tepatnya pada tanggal 7 maret 1915 di batavia berdiri trikoro dharmo oleh r. satiman wiryosanjoyo , kadarman , dan sunardi .
+sentence 5: trikoro dharmo yang diketui oleh r. satiman wiryosanjoyo merupakan oeganisasi pemuda yang pertama yang anggotanya terdiri atas para siswa sekolah menengah berasal dari jawa dan madura .
+passage 25 score = 8.0
+sentence 1: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+sentence 2: dengan berdirinya taman siswa , suwardi suryaningrat memulai gerakan baru bukan lagi dalam bidang politik melainkan bidang pendidikan , yakni mendidik angkatan muda dengan jiwa kebangsaan indonesia berdasarkan akar budaya bangsa .
+sentence 3: sekolah taman siswa dijadikan sarana untuk menyampaikan ideologi nasionalisme kebudayaan , perkembangan politik , dan juga digunakan untuk mendidik calon-calon pemimpin bangsa yang akan datang .
+sentence 4: dalam hal ini , sekolah merupakan wahana untuk meningkatkan derajat bangsa melalui pengajaran itu sendiri .
+sentence 5: selain pengajaran bahasa ( baik bahasa asing maupun bahasa indonesia ) , pendidikan taman siswa juga memberikan pelajaran sejarah , seni , sastra ( terutama sastra jawa dan wayang ) , agama , pendidikan jasmani , dan keterampilan ( pekerjaan tangan ) merupakan kegiatan utama perguruan taman siswa .
+passage 7 score = 7.833333333333333
+sentence 1: itulah sebabnya tanggal 20 mei ditetapkan sebagai hari kebangkitan nasional yang kita peringati setiap tahun hingga sekarang .
+sentence 2: 2 .
+sentence 3: sarekat islam ( si ) tiga tahun setelah berdirinya budi utomo , yakni tahun 1911 berdirilah sarekat dagang islam ( sdi ) di solo oleh h. samanhudi , seorang pedagang batik dari laweyan solo .
+sentence 4: organisasi sarekat dagang islam berdasar pada dua hal berikut ini .
+sentence 5: a. agama islam .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok343.txt
+title : sejarah organisasi dalam bidang politik pada masa pergerakan
+passage 3 score = 8.166666666666668
+sentence 1: pembubaran organisasi ini dipicu oleh tulisan indische partij yang mengkritik perayaan kemerdekaan belanda dari spanyol di negeri jajahan yang belum merdeka , yaitu indonesia .
+sentence 2: perhimpunan indonesia pada awalnya merupakan organisasi yang pada mulanya bernama indische vereeniging yang didirikan oleh mahasiswa indonesia di jakarta pada tanggal 22 desember 1908 .
+sentence 3: kemudian pada tahun 1923 indische vereeniging mengeluarkan semacam keterangan asas yaitu indonesia merdeka yang lepas dari penjajahan .
+sentence 4: untuk mempersiapkannya harus ada usaha untuk membangun tenaga nasional .
+sentence 5: dalam membangun tenaga nasional itu , rakyat indonesia tidak boleh bekerja sama dengan pemerintah belanda .
+passage 29 score = 8.0
+sentence 1: kegiatan yang dibidanginya antara lain pendirian rumah sakit , rumah yatim piatu , balai pengobatan , sekolah-sekolah , dan lain sebagainya .
+sentence 2: perkembangan selanjutnya organisasi muhammadiyah ini berkembang pesat ke luar wilayah yogyakarta .
+sentence 3: organisasi taman siswa didirikan oleh suwardi suryaningrat pada tahun 1922 .
+sentence 4: perguruan ini berkeinginan untuk memajukan pendidikan dan kebudayaan masyarakat indonesia .
+sentence 5: dalam mencapai tujuannya itu taman siswa banyak mendirikan sekolah-sekolah .
+passage 7 score = 7.833333333333333
+sentence 1: karena tidak terbukti bersalah , mereka dibebaskan .
+sentence 2: cikal bakal berdirinya pki adalah didirikannya indische sociaal democratische vereeniging ( isdv ) pada tanggal 9 mei 1914 oleh sneevliet .
+sentence 3: pada tanggal 23 mei 1920 isdv berubah namanya menjadi partai komunis hindia .
+sentence 4: pada bulan desember 1920 diubah lagi menjadi partai komunis indonesia ( pki ) , yang diketuai oleh semaun .
+sentence 5: pada tahun 1920 , pki bergabung dengan comintern ( komunis internasional ) yang merupakan forum komunis dan pusat eksekutif bagi partai komunis seluruh dunia .
+passage 19 score = 7.833333333333333
+sentence 1: menghapus perbedaan-perbedaan politik dan intelektual ; 3 .
+sentence 2: mengusahakan kedua hal itu dengan cara-cara yang tidak bertentangan dengan hukum .
+sentence 3: perhimpunan bangsa indonesia ( pbi ) berdiri tahun 1935 .
+sentence 4: pbi didirikan di surabaya oleh dr. sutomo .
+sentence 5: selanjutnya pbi disatukan menjadi parindra yang lahir pada bulan desember 1935 .
+passage 21 score = 7.833333333333333
+sentence 1: penggalangan persatuan politik itu menuju pada pembentukan badan konsentrasi nasional yang nanti disebut gabungan politik indonesia ( gapi ) pada bulan mei 1939 .
+sentence 2: gabungan politik indonesia didirikan atas prakarsa muhammad husni thamrin pada tanggal 21 mei 1939 .
+sentence 3: pembentukan gapi ini di antaranya dilatarbelakangi oleh : 1 .
+sentence 4: kegagalan petisi sutardjo ; 2 .
+sentence 5: sikap pemerintah kolonial belanda yang kurang memperhatikan kepentingankepentingan bangsa ; 3 .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+title : latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+passage 50 score = 8.5
+sentence 1: namun pada tahun 1914 cipto mangunkusumo dikembalikan ke indonesia karena sakit .
+sentence 2: sedangkan suwardi suryaningrat dan e.f.e. douwes dekker baru kembali ke indonesia pada tahun 1919 .
+sentence 3: suwardi suryaningrat terjun dalam dunia pendidikan , dikenal sebagai ki hajar dewantara , mendirikan perguruan taman siswa .
+sentence 4: e.f.e douwes dekker juga mengabdikan diri dalam dunia pendidikan dan mendirikan yayasan pendidikan ksatrian institute di sukabumi pada tahun 1940 .
+sentence 5: dalam perkembangannya , e.f.e douwes dekker ditangkap lagi dan dibuang ke suriname , amerika latin .
+passage 20 score = 7.833333333333333
+sentence 1: dalam perjalanan sejarah filipina muncul sosok tokoh yang bernama jose rizal yang merintis pergerakan nasional dengan mendirikan liga filipina .
+sentence 2: pada tahun 1892 jose rizal melakukan perlawanan bawah tanah terhadap penindasan spanyol .
+sentence 3: tujuan yang ingin dicapai adalah bagaimana membangkitkan nasionalisme filipina dalam menghadapi penjajahan spanyol .
+sentence 4: dalam perjuangannya jose rizal dihukum mati pada tanggal 30 desember 1896 , setelah gagal dalam pemberontakan katipunan .
+sentence 5: sikap patriotisme dan nasionalisme yang ditunjukkan jose rizal membangkitkan semangat rela berkorban dan cinta tanah air bagi para cendekiawan di indonesia .
+passage 24 score = 7.833333333333333
+sentence 1: gerakan turki muda memberikan pengaruh politis bagi pergerakan bangsa indonesia sebab mengarah pada pembaruan-pembaruan dan modernisasi .
+sentence 2: b. perkembangan pergerakan nasional masa pergerakan nasional di indonesia ditandai dengan berdirinya organisasi-organisasi pergerakan .
+sentence 3: masa pergerakan nasional ( 1908 - 1942 ) , dibagi dalam tiga tahap berikut .
+sentence 4: 1 .
+sentence 5: masa pembentukan ( 1908 - 1920 ) berdiri organisasi seperti budi utomo , sarekat islam , dan indische partij .
+passage 25 score = 7.833333333333333
+sentence 1: masa pembentukan ( 1908 - 1920 ) berdiri organisasi seperti budi utomo , sarekat islam , dan indische partij .
+sentence 2: 2 .
+sentence 3: masa radikal/nonkooperasi ( 1920 - 1930 ) , berdiri organisasi seperti partai komunis indonesia ( pki ) , perhimpunan indonesia ( pi ) , dan partai nasional indonesia ( pni ) .
+sentence 4: 3 .
+sentence 5: masa moderat/kooperasi ( 1930 - 1942 ) , berdiri organisasi seperti parindra , partindo , dan gapi .
+passage 26 score = 7.833333333333333
+sentence 1: masa moderat/kooperasi ( 1930 - 1942 ) , berdiri organisasi seperti parindra , partindo , dan gapi .
+sentence 2: di samping itu juga berdiri organisasi keagamaan , organisasi pemuda , dan organisasi perempuan .
+sentence 3: 1 .
+sentence 4: budi utomo ( bu ) pada tahun 1906 mas ngabehi wahidin sudirohusodo , merintis mengadakan kampanye menghimpun dana pelajar ( studie fund ) di kalangan priyayi di pulau jawa .
+sentence 5: upaya dr. wahidin ini bertujuan untuk meningkatkan martabat rakyat dan membantu para pelajar yang kekurangan dana .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok300.txt
+title : perkembangan dan budaya buddha
+passage 5 score = 6.333333333333333
+sentence 1: 3 .
+sentence 2: kusinagara , tempat wafatnya siddharta pada tahun 482 sm .
+sentence 3: 4 .
+sentence 4: benares , tempat siddharta pertama kali berkhotbah .
+sentence 5: ajaran buddha seperti yang dikhotbahkan siddharta di taman menjangan , benares , berisikan hal-hal berikut .
+passage 7 score = 6.333333333333333
+sentence 1: 7 ) ingatan yang benar , dan 1 .
+sentence 2: pratityasamudpada , artinya rantai sebab akibat yang terdiri atas dua belas rantai dan masing-masing merupakan sebab dari hal berikutnya .
+sentence 3: pada bangunan peribadatan buddha akan kita temui stupa , yaitu bangunan berbentuk kubah yang berdiri di atas sebuah lapik dan diberi payung .
+sentence 4: fungsi bangunan ini adalah sebagai lambang suci agama buddha , tanda peringatan terjadinya suatu peristiwa dalam hidup buddha , tempat penyimpanan tulang jenazah buddha , dan tempat menyimpan benda suci .
+sentence 5: agama buddha berkembang pesat di india pada masa wangsa maurya di bawah raja ashoka .
+passage 8 score = 5.0
+sentence 1: agama buddha berkembang pesat di india pada masa wangsa maurya di bawah raja ashoka .
+sentence 2: raja ini pada awalnya memusuhi agama buddha .
+sentence 3: ia menciptakan “ neraka ashoka ” , yaitu hukuman rebus bagi penganut buddha .
+sentence 4: namun , pada suatu ketika orang yang diperintahkannya untuk direbus tidak mati .
+sentence 5: raja ashoka sadar dari kekeliruannya dan masuk agama buddha .
+passage 4 score = 1.3333333333333333
+sentence 1: 1 .
+sentence 2: taman lumbini di kapilawastu , tempat lahirnya siddharta ( 563 sm ) .
+sentence 3: 2 .
+sentence 4: bodhgaya , tempat siddharta menerima wahyu buddha .
+sentence 5: 3 .
+passage 6 score = 1.3333333333333333
+sentence 1: ajaran buddha seperti yang dikhotbahkan siddharta di taman menjangan , benares , berisikan hal-hal berikut .
+sentence 2: aryastyani , yakni empat kebenaran utama dan delapan jalan tengah ( astavida ) .
+sentence 3: empat kebenaran utama , yaitu 1 ) hidup adalah derita ( duka ) atau samsara , 2 ) samsara disebabkan oleh hasrat keinginan ( tresna ) atau tanha , 3 ) tresna harus dihilangkan , dan 4 ) cara menghilangkan tresnaadalah dengan delapan jalan tengah .
+sentence 4: delapan jalan tengah , yaitu 1 ) pengertian yang benar , 2 ) maksud yang benar , 3 ) bicara yang benar , 4 ) laku yang benar , 5 ) kerja yang benar , 6 ) ikhtiar yang benar , 8 ) renungan yang benar .
+sentence 5: 7 ) ingatan yang benar , dan 1 .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok180.txt
+title : pengendalian di bidang pendidikan dan kebudayaan zaman jepang
+passage 1 score = 1.3333333333333333
+sentence 1: pengendalian di bidang pendidikan dan kebudayaan zaman jepang - seperti pendidikan pada masa belanda yang memiliki model pengajaran mempengaruhi atau doktrinasi barat , pendidikan jepang juga memiliki model pengajaran dengan doktrinasi asia raya di bawah pimpinan jepang .
+sentence 2: model pengajaran dengan bahasa pengantar yaitu bahasa jepang yang di terapkan pada pendidikan di indonesia pada masa pendudukan jepang .
+sentence 3: mata pelajaran yang diberikan juga mengacu pada kebudayaan jepang .
+sentence 4: selain model pendidikan formal diadakan juga kursus-kursus , pendirian badan olah raga ada pula pendidikan keprajuritan .
+sentence 5: penerapan pendidikan di indonesia pada masa pendudukan jepang yang mengharuskan penguasaan dalam bahasa jepang , karena bahasa pengantar dalam pengajaran adalah bahasa jepang .
+passage 3 score = 1.3333333333333333
+sentence 1: contoh-contoh kebudayaan yang diberikan yaitu adat istiadat jepang , semangat jepang , lagu-lagu jepang dan olahraga .
+sentence 2: dengan pemberian kebudayaan jepang diharapkan dapat menghilangkan pengaruh pendidikan gaya barat yang sebelumnya ada .
+sentence 3: satu hal yang melemahkan dari aspek pendidikan adalah penerapan sistem pendidikan militer .
+sentence 4: sistem pengajaran dan kurikulum disesuaikan untuk kepentingan perang .
+sentence 5: siswa memiliki kewajiban mengikuti latihan dasar kemiliteran dan mampu menghapal lagu kebangsaan jepang .
+passage 4 score = 1.3333333333333333
+sentence 1: siswa memiliki kewajiban mengikuti latihan dasar kemiliteran dan mampu menghapal lagu kebangsaan jepang .
+sentence 2: begitu pula dengan para gurunya , diwajibkan untuk menggunakan bahasa jepang dan indonesia sebagai pengantar di sekolah menggantikan bahasa belanda .
+sentence 3: untuk itu para guru wajib mengikuti kursus bahasa jepang yang diadakan .
+sentence 4: dengan melihat kondisi tersebut , ada dua sisi , yaitu kelebihan dan keku rangan dari sistem pendidikan yang diterapkan pada masa belanda yang lebih liberal namun terbatas .
+sentence 5: sementara pada masa jepang konsep diskriminasi tidak ada , tetapi terjadi penurunan kualitas secara drastis baik dari keilmuan maupun mutu murid dan guru .
+passage 5 score = 1.3333333333333333
+sentence 1: sementara pada masa jepang konsep diskriminasi tidak ada , tetapi terjadi penurunan kualitas secara drastis baik dari keilmuan maupun mutu murid dan guru .
+sentence 2: contoh-contoh sekolahan yang ada pada masa pendudukan jepang di indonesia sekolah rakyat yang ada pada masa pendudukan jepang di indonesia contohnya h.i.s djagamonjet , h.i.s oastenweg , h.i.s baloelweg-djatinegara .
+sentence 3: sekolah menengah pertama seperti sekolah menengah pertama i di prapatan 10 , sekolah menengah pewrtama ii di gambir wetan 2 , sekolah menengah pertama iii di jalan reynstaa ( manggarai ) .
+sentence 4: selain itu ada pula sekolah menengah tinggi di menteng 10 .
+sentence 5: ada pula sekolah tabib jakarta dan sekolah tinggi hukum jakarta dan bagi kaum wanita didirikan sekolah kepandaian poetri wakaba .
+passage 6 score = 1.3333333333333333
+sentence 1: ada pula sekolah tabib jakarta dan sekolah tinggi hukum jakarta dan bagi kaum wanita didirikan sekolah kepandaian poetri wakaba .
+sentence 2: mungkin hampir 90 % sekolah menengah yang didirikan belanda dihapuskan oleh jepang .
+sentence 3: karena jepang ingin menghapuskan rakyat indonesia dari pengaruh barat .
+sentence 4: jepang ingin mengenalkan asia raya di bawah pimpinan jepang .
+sentence 5: [ gs ]
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok365.txt
+title : bpupki-ppki dan peristiwa rengasdengklok
+passage 1 score = 6.833333333333333
+sentence 1: bpupki a.pembentukan bpupki badan penyelidik usaha persiapan kemerdekaan indonesia atau ( jepang : dokuritsu junbi cosakai atau dilafalkan dokuritsu zyunbi tyoosakai ) adalah sebuah badan yang dibentuk oleh pemerintah pendudukan balatentara jepang pada tanggal 29 april 1945 bertepatan dengan hari ulang tahun kaisar hirohito .
+sentence 2: badan ini dibentuk sebagai upaya mendapatkan dukungan bangsa indonesia dengan menjanjikan bahwa jepang akan membantu proses kemerdekaan indonesia .
+sentence 3: bpupki beranggotakan 63 orang yang diketuai oleh radjiman wedyodiningrat dengan wakil ketua hibangase yosio ( orang jepang ) dan r.p. soeroso .
+sentence 4: adapun latar belakang pembentukan bpupki secara formil , termuat dalam maklumat gunseikan nomor 23 tanggal 29 mei 1945 , dilihat dari latar belakang dikeluarnya maklumat no. 23 itu adalah karena kedudukan facisme ( kekuasaan ) jepang yang sudah sangat terancam .
+sentence 5: maka sebenarnya , kebijaksanaan pemerintah jepang dengan membentuk bpupki bukan merupakan kebaikan hati yang murni tetapi jepang hanya ingin mementingkan dirinya sendiri , yaitu pertama ; jepang ingin mempertahankan sisa-sisa kekuatannya dengan cara memikat hati rakyat indonesia , dan yang kedua ; untuk melaksanakan politik kolonialnya .
+passage 2 score = 6.833333333333333
+sentence 1: maka sebenarnya , kebijaksanaan pemerintah jepang dengan membentuk bpupki bukan merupakan kebaikan hati yang murni tetapi jepang hanya ingin mementingkan dirinya sendiri , yaitu pertama ; jepang ingin mempertahankan sisa-sisa kekuatannya dengan cara memikat hati rakyat indonesia , dan yang kedua ; untuk melaksanakan politik kolonialnya .
+sentence 2: di luar anggota bpupki , dibentuk sebuah badan tata usaha ( semacam sekretariat ) yang beranggotakan 60 orang .
+sentence 3: badan tata usaha ini dipimpin oleh r.p.soeroso , dengan wakil abdoel gafar pringgodigdo dan masuda ( orang jepang ) .
+sentence 4: pada tanggal 7 agustus 1945 , jepang membubarkan bpupki dan membentuk panitia persiapan kemerdekaan indonesia atau ( jepang : dokuritsu junbi inkai ) dengan anggota berjumlah 21 orang sebagai upaya pencerminan perwakilan etnis [ 1 ] terdiri berasal dari 12 orang dari jawa , 3 orang dari sumatra , 2 orang dari sulawesi , 1 orang dari kalimantan , 1 orang dari nusa tenggara , 1 orang dari maluku , 1 orang dari tionghoa .
+sentence 5: pada tahun 1944 saipan jatuh ke tangan sekutu.dengan pasukan jepang di papua nugini kepulauan solomon , dan kepulauan marshall yang berhasil di pukul mundur oleh pasukan sekutu.dalam situasi kritis tersebut , pada tanggal 1 maret 1945 letnan jendral kumakici harada , pimpinan pemerintah pendudukan jepang di jawa , mengumumkan pembentukan badan penyelidik usaha-usaha persiapan kemerdekan indonesia ( dokuritsu junbi cosakai ) .
+passage 37 score = 6.833333333333333
+sentence 1: pancasila adalah landasan filosofis dari negara indonesia .
+sentence 2: pancasila terdiri dari dua kata sansekerta yang terdapat didalam kitab sutasoma karangan empu tantular pada masa kerajaan majapahit , yaitu panca artinya lima , dan sila artinya dasar .
+sentence 3: jadi , pancasila itu adalah lima prinsip dasar yang terkait dan tidak dapat terpisahkan satu sama lainnya , yaitu : ketuhanan yang maha esa kemanusiaan yang adil dan beradab persatuan indonesia kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan keadilan sosial bagi seluruh rakyat indonesia .
+sentence 4: sedangkan undang-undang dasar 1945 adalah sesuatu draf yang didahului oleh preambul , undang-undang dasar 1945 terdiri dari 37 pasal , 4 peraturan peralihan dan peraturan tambahan .
+sentence 5: preambul terdiri dari empat paragraf dan mengandung kecaman terhadap penjajahan di dunia , merujuk kepada perjuangan kemerdekaan indonesia , deklarasi kemerdekaan , dan pernyataan tujuan dasar dan prinsip-prinsip .
+passage 38 score = 6.833333333333333
+sentence 1: preambul terdiri dari empat paragraf dan mengandung kecaman terhadap penjajahan di dunia , merujuk kepada perjuangan kemerdekaan indonesia , deklarasi kemerdekaan , dan pernyataan tujuan dasar dan prinsip-prinsip .
+sentence 2: demikianlah pengertian undang-undang menurut kami .
+sentence 3: 3 .
+sentence 4: sejarah perkembangan uud 1945 sejarah tatanegara republik indonesia telah mencatat bahwa sejak negara republik indonesia diproklamasikan pada tanggal 17 agustus 1945 sampai dengan sekarang , sudah tiga undang-undang dasar pernah berlaku dan digunakan sebagai landasan konstitusional negara republik indonesia .
+sentence 5: adapun tiga undang-undang dasar itu ialah : undang-undang dasar 1945 yang memuat dalam berita republik indonesia tahun ii ( 1945 ) no. 7. , halaman 45 sampai 48 , berlaku mulai tanggal 18 agustus 1945 sampai 17 agustus 1950 ; kemudian berlaku kembali sejak 5 juli 1959 sampai sekarang .
+passage 43 score = 6.833333333333333
+sentence 1: latar belakang : balatentara jepang menjelang akhir 1944 , menderita kekalahan dan tekanan dari tentara sekutu .
+sentence 2: tuntutan dan desakan dari pemimpin bangsa indonesia .
+sentence 3: tanggal 29 april 1945 pembentukan bpupki oleh gunswikau ( kepala pemerintahan balatentara jepang di jawa ) .
+sentence 4: badan ini bertugas untuk menyelidiki segala sesuatu mengenai persiapan kemerdekaan indonesia , dan beranggotakan 60 orang terdiri dari para pemuka bangsa indonesia yang diketuai oleh dr. rajiman wedyodiningrat , dengan wakil muda raden panji soeroso dan itibangase yosio [ 5 ] .
+sentence 5: dasar disusunnya rancangan pembukaan ( preambule ) uud 1945 sebagai hukum dasar dasar-dasar pikiran disusunnya rancangan pembukaan uud 1945 sebagai hukum dasar dapat kita dapati dengan memeriksa kembali jalannya persidangan bpupki yang secara kronologis nanti kita bahas pada bab berikutnya .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok333.txt
+title : sejarah kerajaan singasari
+passage 1 score = 6.833333333333333
+sentence 1: sejarah kerajaan singasari – pada kesempatan ini admin pengertiansejarah.com akan membagikan pembahasan sejarah tentang kerjaan kediri .
+sentence 2: berikut sejarah kerajaan singasari mulai dari masa berdirinya dan perkembangan politik serata pemerintahan .
+sentence 3: setelah berhasil mengalahkan kertajaya , ken arok mendirikan kerajaan singasari dan berkuasa selama lebih kurang lima tahun , yaitu dari tahun 1222 sampai tahun 1227 .
+sentence 4: ken arok tewas dibunuh seorang pengalasan pada tahun 1227 atas perintah anusapati .
+sentence 5: anusapati adalah anak tunggul ametung dan ken dedes ( anak tiri ken arok ) .
+passage 4 score = 6.833333333333333
+sentence 1: dalam serangan tersebut , tohjoyo berhasil melarikan diri , namun kemudian meninggal akibat luka-luka yang dideritanya di katung lumbung .
+sentence 2: ranggawuni naik takhta menjadi raja singasari dengan gelar sri jaya wisnuwardhana dan memerintah dari tahun 1248 – 1268 .
+sentence 3: ia berusaha menghentikan usahausaha balas dendam dengan memberi jabatan-jabatan tertentu .
+sentence 4: salah satunya adalah mengangkat mahisa cempaka , putra mahisa wongatelang ( mahisa wongateleng adalah putra ken arok dan ken dedes ) , menjadi ratu angabahaya dengan gelar narasinghamurti .
+sentence 5: pada tahun 1254 , wisnuwardhana mengangkat anaknya yang bernama kertanegara menjadi raja muda ( yuwaraja ) .
+passage 9 score = 6.833333333333333
+sentence 1: karena dianggap masih punya hubungan erat dengan kediri , banyak wide diangkat menjadi bupati semenep ( madura ) dengan gelar arya wiraraja .
+sentence 2: d ) angkatan perang , baik prajurit darat maupun armada laut , diperkuat dengan melengkapi peralatan dan persenjataannya .
+sentence 3: 4 .
+sentence 4: menumpas segala pemberontakan yang terjadi di dalam negeri , misalnya , pemberontakan bhayaraja ( 1270 ) dan pemberontakan mahesa rangkah ( 1280 ) .
+sentence 5: 5 .
+passage 15 score = 6.666666666666667
+sentence 1: menjalin persahabatan dengan raja-raja di semenanjung malaka dan indocina dengan jalan mengawinkan putri kertanegara dengan raja indocina .
+sentence 2: pada masa pemerintahan kertanegara , di singasari telah berkembang pusat agama buddha aliran tantrayana .
+sentence 3: hal ini terbukti dalam prasasti yang dituliskan pada lapik ( alas ) “ jaka dolok ” yang ada di taman simpang surabaya .
+sentence 4: lapik tersebut menyebutkan bahwa kertanegara telah dinobatkan sebagai jiwa atau dhyani buddha ( aksobhya ) .
+sentence 5: masa pemerintahan kertanegara berakhir ketika kertanegara dibunuh oleh jayakatwang , raja dari kediri .
+passage 3 score = 6.333333333333333
+sentence 1: ia berusaha membalas kematian ayahnya dan berhasil membunuh anusapati pada tahun 1248 , ketika keduanya tengah menyabung ayam .
+sentence 2: anusapati didharmakan di candi kidal .
+sentence 3: tohjoyo naik takhta menjadi raja singasari , namun hanya untuk beberapa bulan .
+sentence 4: sebabnya adalah ranggawuni , putra anusapati , menyerang keraton singasari dibantu para pengikutnya untuk membalas kematian ayahnya .
+sentence 5: dalam serangan tersebut , tohjoyo berhasil melarikan diri , namun kemudian meninggal akibat luka-luka yang dideritanya di katung lumbung .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok179.txt
+title : perkembangan pendidikan di kerajaan yang bercorak islam di indonesia
+passage 4 score = 6.833333333333333
+sentence 1: perkembangan penting dari pendidikan pada masa perkembangan islam adalah lahirnya pendidikan pesantren .
+sentence 2: pendidikan yang diselenggarakan di pesantren jauh lebih mendalam dibandingkan dengan pendidikan yang dilaksanakan di mesjid , langgar , atau surau .
+sentence 3: siswa yang mengikuti pendidikan di pesantren disebutsantri , sedangkan gurunya biasa disebut kiai .
+sentence 4: materi pelajaran yang diberikan meliputi membaca serta tafsir al qur an , fiqih , tauhid , dan akhlak .
+sentence 5: sumber-sumber pelajaran menggunakan kitab-kitab yang dikarang oleh para ulama sekitar abad ke-7 atau abad ke-8 di timur tengah atau sering disebut dengankitab kuning .
+passage 9 score = 6.333333333333333
+sentence 1: pada masa walisongo , tidak sedikit wali-wali jawa yang menguasai jaringan perdagangan antara pulau jawa dengan luar jawa .
+sentence 2: contohnya , sunan giri yang memiliki jaringan perdagangan antara jawa , kalimantan , maluku , lombok , dan sekitarnya .
+sentence 3: begitu pula dengan perjalanan politik islam di jawa , pesantren memiliki pengaruh kuat bagi pembentukan dan pengambilan berbagai kebijakan di keraton-keraton .
+sentence 4: misalnya , berdirinya kerajaan islam demak adalah karena dukungan dan kontrol kuat dari para ulama , seperti sunan kudus , sunan kalijaga , dan sebagainya .
+sentence 5: dengan demikian , dapat disimpulkan bahwa dinamika masyarakat islam pada masa awal dapat ditandai dengan adanya hubungan yang kuat antara pesantren , pasar ( perdagangan ) , dan keraton .
+passage 16 score = 6.333333333333333
+sentence 1: di jawa pada sekitar abad xvi-xvii di antara walisongo juga ada yang mengajarkan tasawuf , seperti syekh siti jenar , sunan bonang , sunan panggung , sunan kudus , dan sebagainya .
+sentence 2: berkaitan erat dengan tasawuf adalah tarekat yang dianggap sebagai suatu bentuk atau cara untuk mendekatkan diri kepada allah .
+sentence 3: di indonesia , tarekat-tarekat yang mempunyai pengaruh ialah tarekat qadariah , naqsyabandiah , sammaniah , qusyasyiah , syattariah , say iliah , khalwatiah , dan tianiah .
+sentence 4: ham ah fansuri dan pembesar-pembesar kerajaan aceh mendapat pengaruh tarekat qadariah .
+sentence 5: di banten sultan abdul mufakhir mahmud abdulkadir juga mendapat pengaruh aliran qadariah .
+passage 5 score = 5.5
+sentence 1: sumber-sumber pelajaran menggunakan kitab-kitab yang dikarang oleh para ulama sekitar abad ke-7 atau abad ke-8 di timur tengah atau sering disebut dengankitab kuning .
+sentence 2: santri memiliki sikap yang sangat hormat kepada guru , dia harus tunduk kepada apa yang diperintahkan oleh guru .
+sentence 3: selama mengikuti pelajaran di pesantren , santri harus mondok ( menginap ) di pesantren .
+sentence 4: walaupun ada juga santri yang tidak mondok , biasanya santri tersebut berasal dari daerah sekitar tempat pesantren itu berada .
+sentence 5: untuk mengikuti pelajaran dari satu tahap materi pelajaran ke materi berikutnya ditentukan oleh guru .
+passage 8 score = 5.5
+sentence 1: pada awal perkembangan islam , lembaga ini menjadi pusat penyebaran agama islam dan wadah untuk mencetak intelektual muslim .
+sentence 2: sejak masa awal , bahkan sampai sekarang lembaga pendidikan pesantren dan sejenisnya tetap dipercaya oleh masyarakat sebagai lembaga yang membentuk moral dan intelektual muslim .
+sentence 3: perkembangan dan kemajuan masyarakat islam nusantara , khususnya jawa , tidak mungkin terpisahkan dari peranan yang dimainkan pesantren .
+sentence 4: berpusat dari pesantren , perputaran roda ekonomi dan kebijakan politik islam dikendalikan .
+sentence 5: pada masa walisongo , tidak sedikit wali-wali jawa yang menguasai jaringan perdagangan antara pulau jawa dengan luar jawa .
+
+
+After sorted, chosen passage is : 
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 24 score = 8.5
+sentence 1: sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak , pemuda kaum betawi , sekar rukun , timorees verbond , dan lain-lain .
+sentence 2: pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+sentence 3: 6 .
+sentence 4: taman siswa sekembalinya dari tanah pengasingannya di negeri belanda ( 1919 ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+sentence 5: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 43 score = 8.5
+sentence 1: siti walidah ahmad dahlan ( 1917 ) .
+sentence 2: tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+sentence 3: 5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya pawiyatan wanito di magelang ( 1915 ) , wanito susilo di pemalang ( 1918 ) , wanito rukun santoso di malang , budi wanito di solo , putri budi sejati di surabaya ( 1919 ) , wanito mulyo di yogyakarta ( 1920 ) , wanito utomo dan wanito katolik di yogyakarta ( 1921 ) , dan wanito taman siswa ( 1922 ) .
+sentence 4: organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+sentence 5: di ambon dikenal dengan nama ina tani yang lebih condong ke politik .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 24 score = 8.5
+sentence 1: sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak , pemuda kaum betawi , sekar rukun , timorees verbond , dan lain-lain .
+sentence 2: pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+sentence 3: 6 .
+sentence 4: taman siswa sekembalinya dari tanah pengasingannya di negeri belanda ( 1919 ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+sentence 5: pada tanggal 3 juli 1922 suwardi suryaningrat ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di yogyakarta .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+passage 43 score = 8.5
+sentence 1: siti walidah ahmad dahlan ( 1917 ) .
+sentence 2: tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+sentence 3: 5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya pawiyatan wanito di magelang ( 1915 ) , wanito susilo di pemalang ( 1918 ) , wanito rukun santoso di malang , budi wanito di solo , putri budi sejati di surabaya ( 1919 ) , wanito mulyo di yogyakarta ( 1920 ) , wanito utomo dan wanito katolik di yogyakarta ( 1921 ) , dan wanito taman siswa ( 1922 ) .
+sentence 4: organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+sentence 5: di ambon dikenal dengan nama ina tani yang lebih condong ke politik .
+
+document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+title : latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+passage 50 score = 8.5
+sentence 1: namun pada tahun 1914 cipto mangunkusumo dikembalikan ke indonesia karena sakit .
+sentence 2: sedangkan suwardi suryaningrat dan e.f.e. douwes dekker baru kembali ke indonesia pada tahun 1919 .
+sentence 3: suwardi suryaningrat terjun dalam dunia pendidikan , dikenal sebagai ki hajar dewantara , mendirikan perguruan taman siswa .
+sentence 4: e.f.e douwes dekker juga mengabdikan diri dalam dunia pendidikan dan mendirikan yayasan pendidikan ksatrian institute di sukabumi pada tahun 1940 .
+sentence 5: dalam perkembangannya , e.f.e douwes dekker ditangkap lagi dan dibuang ke suriname , amerika latin .
+
+
+Pencarian jawaban
+---------------------
+
+
+sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak <PERSON>, pemuda kaum betawi , sekar rukun , timorees verbond ,</PERSON> dan lain-lain .
+
+
+tidak ada entitas jawaban, skip
+
+
+pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+
+
+tidak ada entitas jawaban, skip
+
+
+6 .
+
+
+tidak ada entitas jawaban, skip
+
+
+taman siswa sekembalinya dari tanah pengasingannya di <LOCATION>negeri belanda</LOCATION> ( <TIME>1919</TIME> ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+
+memproses passage 24
+sentence : 4
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1919 | position = 6
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = taman
+posisi dalam passage = 0
+jarak dengan tiap kandidat jawaban:
+1919 6
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+kata kunci = siswa
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 1
+jarak dengan tiap kandidat jawaban:
+1919 5
+
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+kata kunci = diri
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+
+
+pada <TIME>tanggal 3 juli 1922</TIME> <PERSON>suwardi suryaningrat</PERSON> ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di <LOCATION>yogyakarta .</LOCATION>
+
+memproses passage 24
+sentence : 5
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+tanggal 3 juli 1922 | position = 0
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+posisi dalam passage = 10
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -10
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = yogyakarta
+kata kunci = siswa
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 11
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -11
+
+tokenwithtagstemmed = yogyakarta
+kata kunci = diri
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+posisi dalam passage = 8
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -8
+
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = yogyakarta
+
+
+siti walidah ahmad dahlan ( <TIME>1917</TIME> ) .
+
+memproses passage 43
+sentence : 1
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1917 | position = 4
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+kata kunci = siswa
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+kata kunci = diri
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+
+
+tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+
+
+tidak ada entitas jawaban, skip
+
+
+5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya <PERSON>pawiyatan wanito</PERSON> di <LOCATION>magelang</LOCATION> ( <TIME>1915</TIME> ) <PERSON>, wanito susilo</PERSON> di <LOCATION>pemalang</LOCATION> ( <TIME>1918</TIME> ) , wanito rukun santoso di <LOCATION>malang</LOCATION> , budi wanito di solo , putri budi sejati di surabaya ( <TIME>1919</TIME> ) , wanito mulyo di <LOCATION>yogyakarta</LOCATION> ( <TIME>1920</TIME> ) <PERSON>, wanito utomo</PERSON> dan <PERSON>wanito katolik</PERSON> di <LOCATION>yogyakarta</LOCATION> ( <TIME>1921</TIME> ) , dan <PERSON>wanito</PERSON> taman siswa ( <TIME>1922</TIME> ) .
+
+memproses passage 43
+sentence : 3
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1915 | position = 8
+1918 | position = 11
+1919 | position = 23
+1920 | position = 27
+1921 | position = 31
+1922 | position = 35
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+posisi dalam passage = 33
+jarak dengan tiap kandidat jawaban:
+1915 -25
+1918 -22
+1919 -10
+1920 -6
+1921 -2
+1922 2
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = 1922
+kata kunci = siswa
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 34
+jarak dengan tiap kandidat jawaban:
+1915 -26
+1918 -23
+1919 -11
+1920 -7
+1921 -3
+1922 1
+
+tokenwithtagstemmed = 1922
+kata kunci = diri
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+posisi dalam passage = 3
+jarak dengan tiap kandidat jawaban:
+1915 5
+1918 8
+1919 20
+1920 24
+1921 28
+1922 32
+
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = 1922
+
+
+organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+
+
+tidak ada entitas jawaban, skip
+
+
+di ambon dikenal dengan nama <PERSON>ina tani</PERSON> yang lebih condong ke politik .
+
+
+tidak ada entitas jawaban, skip
+
+
+sejalan dengan munculnya jong java , pemuda-pemuda di daerah lain juga membentuk organisasi-organisasi , seperti jong sumatra bond , pasundan , jong minahasa , jong ambon , jong selebes , jong batak <PERSON>, pemuda kaum betawi , sekar rukun , timorees verbond ,</PERSON> dan lain-lain .
+
+
+tidak ada entitas jawaban, skip
+
+
+pada dasarnya semua organisasi itu masih bersifat kedaerahan , tetapi semuanya mempunyai cita-cita ke arah kemajuan indonesia , khususnya memajukan budaya dan daerah masing-masing .
+
+
+tidak ada entitas jawaban, skip
+
+
+6 .
+
+
+tidak ada entitas jawaban, skip
+
+
+taman siswa sekembalinya dari tanah pengasingannya di <LOCATION>negeri belanda</LOCATION> ( <TIME>1919</TIME> ) , suwardi suryaningrat menfokuskan perjuangannya dalam bidang pendidikan .
+
+memproses passage 24
+sentence : 4
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1919 | position = 6
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = taman
+posisi dalam passage = 0
+jarak dengan tiap kandidat jawaban:
+1919 6
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+kata kunci = siswa
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 1
+jarak dengan tiap kandidat jawaban:
+1919 5
+
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+kata kunci = diri
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = kembal
+tokenwithtagstemmed = tanah
+tokenwithtagstemmed = asing
+tokenwithtagstemmed = negeri belanda
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = suwardi
+tokenwithtagstemmed = suryaningrat
+tokenwithtagstemmed = menfokuskan
+tokenwithtagstemmed = juang
+tokenwithtagstemmed = bidang
+tokenwithtagstemmed = didik
+
+
+pada <TIME>tanggal 3 juli 1922</TIME> <PERSON>suwardi suryaningrat</PERSON> ( lebih dikenal dengan nama ki hajar dewantara ) berhasil mendirikan perguruan taman siswa di <LOCATION>yogyakarta .</LOCATION>
+
+memproses passage 24
+sentence : 5
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+tanggal 3 juli 1922 | position = 0
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+posisi dalam passage = 10
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -10
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = yogyakarta
+kata kunci = siswa
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 11
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -11
+
+tokenwithtagstemmed = yogyakarta
+kata kunci = diri
+tokenwithtagstemmed = tanggal 3 juli 1922
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = kenal
+tokenwithtagstemmed = nama
+tokenwithtagstemmed = ki
+tokenwithtagstemmed = hajar
+tokenwithtagstemmed = dewantara
+tokenwithtagstemmed = hasil
+tokenwithtagstemmed = diri
+posisi dalam passage = 8
+jarak dengan tiap kandidat jawaban:
+tanggal 3 juli 1922 -8
+
+tokenwithtagstemmed = guru
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = yogyakarta
+
+
+siti walidah ahmad dahlan ( <TIME>1917</TIME> ) .
+
+memproses passage 43
+sentence : 1
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1917 | position = 4
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+kata kunci = siswa
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+kata kunci = diri
+tokenwithtagstemmed = siti
+tokenwithtagstemmed = walidah
+tokenwithtagstemmed = ahmad
+tokenwithtagstemmed = dahlan
+tokenwithtagstemmed = 1917
+
+
+tujuannya untuk memajukan pendidikan dan keagamaan kaum wanita .
+
+
+tidak ada entitas jawaban, skip
+
+
+5 ) organisasi kewanitaan lain yang berdiri cukup banyak , misalnya <PERSON>pawiyatan wanito</PERSON> di <LOCATION>magelang</LOCATION> ( <TIME>1915</TIME> ) <PERSON>, wanito susilo</PERSON> di <LOCATION>pemalang</LOCATION> ( <TIME>1918</TIME> ) , wanito rukun santoso di <LOCATION>malang</LOCATION> , budi wanito di solo , putri budi sejati di surabaya ( <TIME>1919</TIME> ) , wanito mulyo di <LOCATION>yogyakarta</LOCATION> ( <TIME>1920</TIME> ) <PERSON>, wanito utomo</PERSON> dan <PERSON>wanito katolik</PERSON> di <LOCATION>yogyakarta</LOCATION> ( <TIME>1921</TIME> ) , dan <PERSON>wanito</PERSON> taman siswa ( <TIME>1922</TIME> ) .
+
+memproses passage 43
+sentence : 3
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+title : organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+list jawaban dan posisi dalam passage
+1915 | position = 8
+1918 | position = 11
+1919 | position = 23
+1920 | position = 27
+1921 | position = 31
+1922 | position = 35
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+posisi dalam passage = 33
+jarak dengan tiap kandidat jawaban:
+1915 -25
+1918 -22
+1919 -10
+1920 -6
+1921 -2
+1922 2
+
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = 1922
+kata kunci = siswa
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+posisi dalam passage = 34
+jarak dengan tiap kandidat jawaban:
+1915 -26
+1918 -23
+1919 -11
+1920 -7
+1921 -3
+1922 1
+
+tokenwithtagstemmed = 1922
+kata kunci = diri
+tokenwithtagstemmed = 5
+tokenwithtagstemmed = organisasi
+tokenwithtagstemmed = wanita
+tokenwithtagstemmed = diri
+posisi dalam passage = 3
+jarak dengan tiap kandidat jawaban:
+1915 5
+1918 8
+1919 20
+1920 24
+1921 28
+1922 32
+
+tokenwithtagstemmed = cukup
+tokenwithtagstemmed = misal
+tokenwithtagstemmed = pawiyatan wanito
+tokenwithtagstemmed = magelang
+tokenwithtagstemmed = 1915
+tokenwithtagstemmed = wanito susilo
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = 1918
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = rukun
+tokenwithtagstemmed = santoso
+tokenwithtagstemmed = malang
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = solo
+tokenwithtagstemmed = putri
+tokenwithtagstemmed = budi
+tokenwithtagstemmed = sejati
+tokenwithtagstemmed = surabaya
+tokenwithtagstemmed = 1919
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = mulyo
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1920
+tokenwithtagstemmed = wanito utomo
+tokenwithtagstemmed = wanito katolik
+tokenwithtagstemmed = yogyakarta
+tokenwithtagstemmed = 1921
+tokenwithtagstemmed = wanito
+tokenwithtagstemmed = taman
+tokenwithtagstemmed = siswa
+tokenwithtagstemmed = 1922
+
+
+organisasi wanita juga muncul di sulawesi selatan dengan nama gorontalosche mohammadaanche vrouwenvereeniging .
+
+
+tidak ada entitas jawaban, skip
+
+
+di ambon dikenal dengan nama <PERSON>ina tani</PERSON> yang lebih condong ke politik .
+
+
+tidak ada entitas jawaban, skip
+
+
+namun pada <TIME>tahun 1914</TIME> cipto mangunkusumo dikembalikan ke <LOCATION>indonesia</LOCATION> karena sakit .
+
+memproses passage 50
+sentence : 1
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+title : latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+list jawaban dan posisi dalam passage
+tahun 1914 | position = 0
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = tahun 1914
+tokenwithtagstemmed = cipto
+tokenwithtagstemmed = mangunkusumo
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = sakit
+kata kunci = siswa
+tokenwithtagstemmed = tahun 1914
+tokenwithtagstemmed = cipto
+tokenwithtagstemmed = mangunkusumo
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = sakit
+kata kunci = diri
+tokenwithtagstemmed = tahun 1914
+tokenwithtagstemmed = cipto
+tokenwithtagstemmed = mangunkusumo
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = sakit
+
+
+sedangkan <PERSON>suwardi suryaningrat</PERSON> dan e.f.e. douwes dekker baru kembali ke <LOCATION>indonesia</LOCATION> pada <TIME>tahun 1919</TIME> .
+
+memproses passage 50
+sentence : 2
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+title : latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+list jawaban dan posisi dalam passage
+tahun 1919 | position = 7
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = baru
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = tahun 1919
+kata kunci = siswa
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = baru
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = tahun 1919
+kata kunci = diri
+tokenwithtagstemmed = suwardi suryaningrat
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = baru
+tokenwithtagstemmed = kembali
+tokenwithtagstemmed = indonesia
+tokenwithtagstemmed = tahun 1919
+
+
+suwardi suryaningrat terjun dalam dunia pendidikan , dikenal sebagai ki hajar dewantara , mendirikan perguruan taman siswa .
+
+
+tidak ada entitas jawaban, skip
+
+
+e.f.e douwes dekker juga mengabdikan diri dalam dunia pendidikan dan mendirikan yayasan pendidikan ksatrian institute di sukabumi pada <TIME>tahun 1940</TIME> .
+
+memproses passage 50
+sentence : 4
+from document : C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+title : latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+list jawaban dan posisi dalam passage
+tahun 1940 | position = 12
+
+
+melakukan pencarian:
+kata kunci = taman
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = abdi
+tokenwithtagstemmed = dunia
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = yayasan
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = ksatrian
+tokenwithtagstemmed = institute
+tokenwithtagstemmed = sukabumi
+tokenwithtagstemmed = tahun 1940
+kata kunci = siswa
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = abdi
+tokenwithtagstemmed = dunia
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = diri
+tokenwithtagstemmed = yayasan
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = ksatrian
+tokenwithtagstemmed = institute
+tokenwithtagstemmed = sukabumi
+tokenwithtagstemmed = tahun 1940
+kata kunci = diri
+tokenwithtagstemmed = e.f.e
+tokenwithtagstemmed = douwes
+tokenwithtagstemmed = dekker
+tokenwithtagstemmed = abdi
+tokenwithtagstemmed = dunia
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = diri
+posisi dalam passage = 6
+jarak dengan tiap kandidat jawaban:
+tahun 1940 6
+
+tokenwithtagstemmed = yayasan
+tokenwithtagstemmed = didik
+tokenwithtagstemmed = ksatrian
+tokenwithtagstemmed = institute
+tokenwithtagstemmed = sukabumi
+tokenwithtagstemmed = tahun 1940
+
+
+dalam perkembangannya , e.f.e douwes dekker ditangkap lagi dan dibuang ke suriname , amerika latin .
+
+
+tidak ada entitas jawaban, skip
+
+Pengurutan kandidat jawaban
+this.answer = 1922
+passage rank = 2
+distance = 1
+doc rank = 2
+total Score = 5
+frequency = 1
+order process = 4
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1922
+passage rank = 4
+distance = 1
+doc rank = 3
+total Score = 8
+frequency = 1
+order process = 14
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1922
+passage rank = 2
+distance = 2
+doc rank = 2
+total Score = 6
+frequency = 1
+order process = 3
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1922
+passage rank = 4
+distance = 2
+doc rank = 3
+total Score = 9
+frequency = 1
+order process = 13
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 1
+distance = 5
+doc rank = 2
+total Score = 8
+frequency = 1
+order process = 2
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1915
+passage rank = 2
+distance = 5
+doc rank = 2
+total Score = 9
+frequency = 1
+order process = 5
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 3
+distance = 5
+doc rank = 3
+total Score = 11
+frequency = 1
+order process = 12
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1915
+passage rank = 4
+distance = 5
+doc rank = 3
+total Score = 12
+frequency = 1
+order process = 15
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 1
+distance = 6
+doc rank = 2
+total Score = 9
+frequency = 1
+order process = 1
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 3
+distance = 6
+doc rank = 3
+total Score = 12
+frequency = 1
+order process = 11
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = tahun 1940
+passage rank = 5
+distance = 6
+doc rank = 5
+total Score = 16
+frequency = 1
+order process = 21
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok394.txt
+document Title = latar belakang tumbuh dan berkembangnya nasionalisme di indonesia
+
+this.answer = 1918
+passage rank = 2
+distance = 8
+doc rank = 2
+total Score = 12
+frequency = 1
+order process = 6
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1918
+passage rank = 4
+distance = 8
+doc rank = 3
+total Score = 15
+frequency = 1
+order process = 16
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 2
+distance = 20
+doc rank = 2
+total Score = 24
+frequency = 1
+order process = 7
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1919
+passage rank = 4
+distance = 20
+doc rank = 3
+total Score = 27
+frequency = 1
+order process = 17
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1920
+passage rank = 2
+distance = 24
+doc rank = 2
+total Score = 28
+frequency = 1
+order process = 8
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1920
+passage rank = 4
+distance = 24
+doc rank = 3
+total Score = 31
+frequency = 1
+order process = 18
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1921
+passage rank = 2
+distance = 28
+doc rank = 2
+total Score = 32
+frequency = 1
+order process = 9
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1921
+passage rank = 4
+distance = 28
+doc rank = 3
+total Score = 35
+frequency = 1
+order process = 19
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1922
+passage rank = 2
+distance = 32
+doc rank = 2
+total Score = 36
+frequency = 1
+order process = 10
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok142.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+this.answer = 1922
+passage rank = 4
+distance = 32
+doc rank = 3
+total Score = 39
+frequency = 1
+order process = 20
+document file = C:\Users\hobert\workspace\tesLuceneLowerVersion1\dokumenSejarah\dok71.txt
+document Title = organisasi pergerakan nasional (budi utomo, sarekat islam, indische partij, muhammadiyah dan lainnya)
+
+
+
+selesai

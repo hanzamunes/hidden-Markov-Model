@@ -17,5 +17,6 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/Hidden%20Markov%20Model%201/commons-io-2.5-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/tesLuceneLowerVersion1"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

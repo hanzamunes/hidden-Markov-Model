@@ -1,5 +1,8 @@
 package gui;
-import java.awt.Color; 
+import java.awt.Color;
+
+import javax.swing.JFrame;
+
 import java.awt.BasicStroke; 
 
 import org.jfree.chart.ChartPanel; 
@@ -13,7 +16,7 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.plot.PlotOrientation; 
 import org.jfree.data.xy.XYSeriesCollection; 
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-public class XyChart extends ApplicationFrame {
+public class XyChart extends JFrame {
 	public static XYDataset dataSet; 
 	public XyChart(String applicationTitle, String chartTitle ) {
 		super(applicationTitle);
@@ -38,6 +41,7 @@ public class XyChart extends ApplicationFrame {
 		      renderer.setSeriesStroke( 2 , new BasicStroke( 1.0f ) );
 		      plot.setRenderer( renderer ); 
 		      setContentPane( chartPanel ); 
+		      this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 	
 

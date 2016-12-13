@@ -8,6 +8,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
+
+import com.tutorialspoint.lucene.LuceneTester;
+
+import answerProcessing.AnswerModel;
+
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
@@ -18,6 +23,7 @@ import javax.swing.SwingWorker;
 import javax.swing.UIManager;
 
 import codebook.*;
+import core.Utils;
 import hmm.*;
 import database.*;
 import mfcc.Mfcc;
@@ -27,8 +33,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.io.PrintWriter;
@@ -38,8 +46,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
+
 import onlyEnergy.*;
 import captureAudio.JSoundCapture;
+import java.awt.Font;
 
 public class Pengujian extends JFrame {
 
@@ -67,6 +79,14 @@ public class Pengujian extends JFrame {
 	private String tempFilePath;
 	public static JButton btnRecognize;
 	private String tempFileName;
+	private JTextField answerTextField;
+	private ArrayList<AnswerModel> answer;
+	private JTextField questionField;
+	private JTextField textFieldWaktuSuara;
+	private JTextField textFieldWaktuJawaban;
+	private static int second;
+	private Timer time;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -141,6 +161,8 @@ public class Pengujian extends JFrame {
 	    }
 	}
 	
+	
+	
 	class TesAkurasiCustom extends SwingWorker<Integer,Integer>
 	{
 		protected Integer doInBackground() throws Exception
@@ -196,6 +218,64 @@ public class Pengujian extends JFrame {
 	    }
 	}
 	
+	class SearchAnswer extends SwingWorker<Integer,Integer>
+	{
+		protected Integer doInBackground() throws Exception
+	    {
+			textFieldWaktuSuara.setText("");
+			textFieldWaktuJawaban.setText("");
+			System.out.println("masuk");
+			second = 0;
+			time = new Timer();
+			time.schedule(new TimerTask(){
+				public void run ()
+				{
+					second = second + 1;
+				}
+			}, 0, 1000);
+			VAD vad = new VAD();
+			double[] data = StdAudio.read(tempFilePath);
+			vad.fileName = tempFileName;
+			boolean[] speech = vad.computeVAD(data, 160);
+			//double[] cutsilent = vad.cutSilent(data, speech, 160);
+			//StdAudio.save("hasilGabung.wav", cutsilent);
+			double[][] potong = vad.splitWord(data, speech, 160);
+			hasil = "";
+			for (int i=0;i<potong.length;i++)
+			{
+				double[][] result = mfcc.GetFeatureVector(potong[i], alpha, util.Constant.FRAME_LENGTH, util.Constant.FRAME_OVERLAP);
+				hasil = hasil + hmmGetWord(result);
+				if (i != potong.length-1)
+				{
+					hasil = hasil + " ";
+				}
+			}
+			questionField.setText(hasil);
+			textFieldWaktuSuara.setText(Integer.toString(second));
+			System.out.println(Utils.savePath9);
+			LuceneTester tester = new LuceneTester();
+			answer = tester.runSearcher(hasil,false,true,true);
+	        return 42;
+	    }
+
+	    protected void done()
+	    {
+	    	answerTextField.setText("");
+	    	if (answer != null)
+	    	{
+	    		answerTextField.setText(answer.get(0).getAnswer());
+	    	}
+	    	else
+	    	{
+	    		answerTextField.setText("NO ANSWER");
+	    	}
+	    	textFieldWaktuJawaban.setText(Integer.toString(second));
+	    	time.cancel();
+	    	time.purge();
+			
+	    }
+	}
+	
 	class LoadAudioRecorded extends SwingWorker<Integer,Integer>
 	{
 		protected Integer doInBackground() throws Exception
@@ -220,7 +300,6 @@ public class Pengujian extends JFrame {
 			}
 	        return 42;
 	    }
-
 	    protected void done()
 	    {
 	    	textField_6.setText("");
@@ -376,7 +455,7 @@ public class Pengujian extends JFrame {
 		
 		textField_5 = new JTextField();
 		textField_5.setEditable(false);
-		textField_5.setBounds(12, 34, 386, 20);
+		textField_5.setBounds(12, 34, 386, 26);
 		panel2.add(textField_5);
 		textField_5.setColumns(10);
 		
@@ -430,7 +509,7 @@ public class Pengujian extends JFrame {
 		
 		textField = new JTextField();
 		textField.setEditable(false);
-		textField.setBounds(10, 36, 405, 20);
+		textField.setBounds(10, 36, 405, 26);
 		panel1.add(textField);
 		textField.setColumns(10);
 		
@@ -472,7 +551,7 @@ public class Pengujian extends JFrame {
 		
 		textField_1 = new JTextField();
 		textField_1.setEditable(false);
-		textField_1.setBounds(12, 143, 504, 20);
+		textField_1.setBounds(12, 143, 504, 26);
 		panel1.add(textField_1);
 		textField_1.setColumns(10);
 		
@@ -560,7 +639,7 @@ public class Pengujian extends JFrame {
 		textField_4 = new JTextField();
 		textField_4.setEditable(false);
 		textField_4.setColumns(10);
-		textField_4.setBounds(12, 13, 405, 20);
+		textField_4.setBounds(12, 13, 405, 26);
 		panel4.add(textField_4);
 		
 		btnRunTest_1 = new JButton("Run Test");
@@ -583,7 +662,70 @@ public class Pengujian extends JFrame {
 		textField_3 = new JTextField();
 		textField_3.setEditable(false);
 		textField_3.setColumns(10);
-		textField_3.setBounds(151, 95, 49, 20);
+		textField_3.setBounds(151, 95, 49, 26);
 		panel4.add(textField_3);
+		
+		JPanel panel5 = new JPanel();
+		panel5.setLayout(null);
+		tabbedPane.add("Uji gabungan", panel5);
+		
+		JSoundCapture soundCapture_1 = new JSoundCapture(true, true);
+		soundCapture_1.setBounds(23, 6, 504, 88);
+		panel5.add(soundCapture_1);
+		
+		JLabel lblAnswer = new JLabel("answer:");
+		lblAnswer.setBounds(24, 145, 55, 16);
+		panel5.add(lblAnswer);
+		
+		answerTextField = new JTextField();
+		answerTextField.setEditable(false);
+		answerTextField.setBounds(23, 161, 504, 28);
+		panel5.add(answerTextField);
+		answerTextField.setColumns(10);
+		
+		JButton btnGetAnswer = new JButton("Get Answer");
+		btnGetAnswer.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				answerTextField.setText("");
+				questionField.setText("");
+				tempFileName = JSoundCapture.saveFileName+".wav";
+				File tempFile = new File ("tempRecord",tempFileName);
+				tempFilePath = tempFile.getAbsolutePath();
+				System.out.println(tempFilePath);
+				new SearchAnswer().execute();
+			}
+		});
+		btnGetAnswer.setBounds(70, 93, 105, 28);
+		panel5.add(btnGetAnswer);
+		
+		JLabel lblQuestion = new JLabel("Question");
+		lblQuestion.setBounds(190, 106, 55, 16);
+		panel5.add(lblQuestion);
+		
+		questionField = new JTextField();
+		questionField.setEditable(false);
+		questionField.setBounds(243, 100, 284, 28);
+		panel5.add(questionField);
+		questionField.setColumns(10);
+		
+		JLabel lblWaktuSuara = new JLabel("Waktu suara -> teks");
+		lblWaktuSuara.setBounds(70, 133, 116, 16);
+		panel5.add(lblWaktuSuara);
+		
+		textFieldWaktuSuara = new JTextField();
+		textFieldWaktuSuara.setFont(new Font("SansSerif", Font.PLAIN, 10));
+		textFieldWaktuSuara.setBounds(190, 133, 55, 28);
+		panel5.add(textFieldWaktuSuara);
+		textFieldWaktuSuara.setColumns(10);
+		
+		JLabel lblWaktuTeks = new JLabel("Waktu teks -> jawaban\r\n");
+		lblWaktuTeks.setBounds(253, 133, 131, 16);
+		panel5.add(lblWaktuTeks);
+		
+		textFieldWaktuJawaban = new JTextField();
+		textFieldWaktuJawaban.setFont(new Font("SansSerif", Font.PLAIN, 10));
+		textFieldWaktuJawaban.setColumns(10);
+		textFieldWaktuJawaban.setBounds(386, 131, 55, 30);
+		panel5.add(textFieldWaktuJawaban);
 	}
 }
