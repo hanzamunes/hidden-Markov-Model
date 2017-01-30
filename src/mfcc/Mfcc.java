@@ -5,6 +5,8 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 
+import javax.swing.JFrame;
+
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 import org.jfree.ui.RefineryUtilities;
@@ -21,6 +23,7 @@ public class Mfcc {
 	public Delta delta;
 	public Energy en;
 	private static int dataPerFrame;
+	static String fileName;
 	public  Mfcc()
 	{
 	}
@@ -73,6 +76,8 @@ public class Mfcc {
 		ArrayList<double[]> result = new ArrayList<double[]>();
 		int index = 0;
 		int bound = length-overlap;
+		//XYSeriesCollection dataset = new XYSeriesCollection();
+		//int va = index;
 		while (index<bound)
 		{
 			double[] frameData = new double[frameSize];
@@ -88,9 +93,23 @@ public class Mfcc {
 					frameData[i] = data[frameNumber];
 				}
 			}
+			//va = index;
 			index = index + overlap;
 			result.add(frameData);
+			/*XYSeries frames = new XYSeries ("frame "+result.size());
+			for (int i=0;i<frameSize;i++)
+			{
+				frames.add(va, frameData[i]);
+				va++;
+			}
+			dataset.addSeries(frames);*/
 		}
+		/*XyChart.dataSet = dataset;
+		XyChart chart2 = new XyChart("frameChart "+fileName,"framing tetap Chart "+fileName);
+		chart2.pack( );          
+	      RefineryUtilities.centerFrameOnScreen( chart2 );
+	      chart2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	      chart2.setVisible( true );*/
 		return result;
 	}
 	
@@ -106,6 +125,8 @@ public class Mfcc {
 		System.out.println("overlap = "+overlap);*/
 		ArrayList<double[]> result = new ArrayList<double[]>();
 		int pointer = 0;
+		//XYSeriesCollection dataset = new XYSeriesCollection();
+		//int te = pointer;
 		while (result.size() < totalFrame)
 		{
 			double[] temp = new double[dataPerFrame];
@@ -122,8 +143,22 @@ public class Mfcc {
 				pointer++;
 			}
 			result.add(temp);
+			/*XYSeries frames = new XYSeries ("frame "+result.size());
+			te = pointer;
+			for (int i=0;i<dataPerFrame;i++)
+			{
+				frames.add(te, temp[i]);
+				te++;
+			}
+			dataset.addSeries(frames);*/
 			pointer = pointer - overlap;
 		}
+		/*XyChart.dataSet = dataset;
+		XyChart chart2 = new XyChart("frameChart "+fileName,"framing fleksibel Chart "+fileName);
+		chart2.pack( );          
+	      RefineryUtilities.centerFrameOnScreen( chart2 );
+	      chart2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	      chart2.setVisible( true );*/
 		return result;
 	}
 	
@@ -371,4 +406,19 @@ public class Mfcc {
 		}
 		return featureVector;
 	}
+	
+	/*public static void main (String[] args)
+	{
+		String sound1 = "C:\\Users\\hobert\\workspace\\dataLatihSuara\\siapa\\sample_2_siapa.wav";
+		String sound2 = "C:\\Users\\hobert\\workspace\\data suara panjang\\panjang_siapa.wav";
+		double[] sound1data = StdAudio.read(sound1);
+		double[] sound2data = StdAudio.read(sound2);
+		fileName = "sample_2_siapa.wav";
+		ArrayList<double[]> frameSound1tetap = FrameBlocking(sound1data,4000,1600);
+		ArrayList<double[]> frameSound1fleksibel = FrameBlocking (sound1data,13);
+		fileName = "siapa panjang.wav";
+		ArrayList<double[]> frameSound2tetap = FrameBlocking (sound2data,4000,1600);
+		ArrayList<double[]> frameSound2fleksibel = FrameBlocking(sound2data,13);
+		
+	}*/
 }

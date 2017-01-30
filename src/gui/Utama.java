@@ -62,7 +62,7 @@ public class Utama extends JFrame {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 565, 343);
 		BackgroundPanel panel = new BackgroundPanel(bf);
 		setContentPane(panel);
@@ -105,9 +105,5 @@ public class Utama extends JFrame {
 		});
 		btnPengujian.setBounds(234, 165, 114, 41);
 		panel.add(btnPengujian);
-		
-		JButton btnTentangPembuat = new JButton("Tentang Pembuat");
-		btnTentangPembuat.setBounds(394, 276, 153, 26);
-		panel.add(btnTentangPembuat);
 	}
 }

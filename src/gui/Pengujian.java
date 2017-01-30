@@ -79,13 +79,10 @@ public class Pengujian extends JFrame {
 	private String tempFilePath;
 	public static JButton btnRecognize;
 	private String tempFileName;
-	private JTextField answerTextField;
 	private ArrayList<AnswerModel> answer;
-	private JTextField questionField;
-	private JTextField textFieldWaktuSuara;
-	private JTextField textFieldWaktuJawaban;
 	private static int second;
 	private Timer time;
+	private PrintWriter debug;
 	
 	/**
 	 * Launch the application.
@@ -218,68 +215,13 @@ public class Pengujian extends JFrame {
 	    }
 	}
 	
-	class SearchAnswer extends SwingWorker<Integer,Integer>
-	{
-		protected Integer doInBackground() throws Exception
-	    {
-			textFieldWaktuSuara.setText("");
-			textFieldWaktuJawaban.setText("");
-			System.out.println("masuk");
-			second = 0;
-			time = new Timer();
-			time.schedule(new TimerTask(){
-				public void run ()
-				{
-					second = second + 1;
-				}
-			}, 0, 1000);
-			VAD vad = new VAD();
-			double[] data = StdAudio.read(tempFilePath);
-			vad.fileName = tempFileName;
-			boolean[] speech = vad.computeVAD(data, 160);
-			//double[] cutsilent = vad.cutSilent(data, speech, 160);
-			//StdAudio.save("hasilGabung.wav", cutsilent);
-			double[][] potong = vad.splitWord(data, speech, 160);
-			hasil = "";
-			for (int i=0;i<potong.length;i++)
-			{
-				double[][] result = mfcc.GetFeatureVector(potong[i], alpha, util.Constant.FRAME_LENGTH, util.Constant.FRAME_OVERLAP);
-				hasil = hasil + hmmGetWord(result);
-				if (i != potong.length-1)
-				{
-					hasil = hasil + " ";
-				}
-			}
-			questionField.setText(hasil);
-			textFieldWaktuSuara.setText(Integer.toString(second));
-			System.out.println(Utils.savePath9);
-			LuceneTester tester = new LuceneTester();
-			answer = tester.runSearcher(hasil,false,true,true);
-	        return 42;
-	    }
-
-	    protected void done()
-	    {
-	    	answerTextField.setText("");
-	    	if (answer != null)
-	    	{
-	    		answerTextField.setText(answer.get(0).getAnswer());
-	    	}
-	    	else
-	    	{
-	    		answerTextField.setText("NO ANSWER");
-	    	}
-	    	textFieldWaktuJawaban.setText(Integer.toString(second));
-	    	time.cancel();
-	    	time.purge();
-			
-	    }
-	}
+	
 	
 	class LoadAudioRecorded extends SwingWorker<Integer,Integer>
 	{
 		protected Integer doInBackground() throws Exception
 	    {
+			//debug = new PrintWriter("hasil quantize suara beda.txt");
 			System.out.println("masuk");
 			VAD vad = new VAD();
 			double[] data = StdAudio.read(tempFilePath);
@@ -288,6 +230,14 @@ public class Pengujian extends JFrame {
 			//double[] cutsilent = vad.cutSilent(data, speech, 160);
 			//StdAudio.save("hasilGabung.wav", cutsilent);
 			double[][] potong = vad.splitWord(data, speech, 160);
+			/*String saveLocation = "hasil potong suara/suaraJuan/";
+			File mkd = new File (saveLocation);
+			mkd.mkdirs();
+			for (int i=0;i<potong.length;i++)
+			{
+				String fileName = saveLocation+"hasil_potong_"+i+".wav";
+				StdAudio.save(fileName, potong[i]);
+			}*/
 			hasil = "";
 			for (int i=0;i<potong.length;i++)
 			{
@@ -302,6 +252,7 @@ public class Pengujian extends JFrame {
 	    }
 	    protected void done()
 	    {
+	    	//debug.close();
 	    	textField_6.setText("");
 			textField_6.setText(hasil);
 	    }
@@ -311,7 +262,7 @@ public class Pengujian extends JFrame {
 	{
 		protected Integer doInBackground() throws Exception
 	    {
-			VAD vad = new VAD();
+			//VAD vad = new VAD();
 			double[] data = StdAudio.read(filePath);
 			//PrintStream out = new PrintStream(new FileOutputStream ("outputVad.txt"));
 			//System.setOut(out);
@@ -332,11 +283,16 @@ public class Pengujian extends JFrame {
 			}
 			else
 			{*/
+			outputCSV="nama file uji,kata yang diuji,likelihood\n";
 				System.out.println ("ga masuk split");
 				double[][] result = mfcc.GetFeatureVector(data, alpha, util.Constant.FRAME_LENGTH, util.Constant.FRAME_OVERLAP);
 				//double[][] result = mfcc.GetFeatureVector(data, alpha, 1024);
 				hasil = "";
 				hasil = hmmGetWord(result);
+				String namafile = "kata Taman.csv";
+				Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(namafile), "UTF-8"));
+				out.write(outputCSV);
+				out.close();
 			//}
 	        return 42;
 	    }
@@ -367,7 +323,13 @@ public class Pengujian extends JFrame {
 		Codebook cb = new Codebook();
 		// quantize using Codebook
 		int quantized[] = cb.quantize(pts);
-
+		//debug.println("potong file");
+		/*for (int i=0;i<quantized.length;i++)
+		{
+			debug.println(quantized[i]);
+		}
+		debug.println();
+		debug.println();*/
 		// read registered/trained words
 		ObjectIODataBase db = new ObjectIODataBase();
 		db.setType("hmm");
@@ -386,6 +348,7 @@ public class Pengujian extends JFrame {
 		double likelihoods[] = new double[words.length];
 		for (int j = 0; j < words.length; j++) {
 			likelihoods[j] = hmmModels[j].viterbi(quantized);
+			outputCSV = outputCSV + "kapan,"+words[j]+","+likelihoods[j]+"\n";
 			//System.out.println("Likelihood with " + words[j] + " is " + likelihoods[j]);
 		}
 		
@@ -449,7 +412,7 @@ public class Pengujian extends JFrame {
 		
 		textField_2 = new JTextField();
 		textField_2.setEditable(false);
-		textField_2.setBounds(151, 115, 49, 20);
+		textField_2.setBounds(151, 115, 49, 26);
 		panel2.add(textField_2);
 		textField_2.setColumns(10);
 		
@@ -613,6 +576,21 @@ public class Pengujian extends JFrame {
 		panel3.add(textField_6);
 		textField_6.setColumns(10);
 		
+		JButton btnHidden = new JButton("Hidden");
+		btnHidden.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				tempFileName = "1483259801759.wav";
+				File tempFile = new File ("tempRecord",tempFileName);
+				tempFilePath = tempFile.getAbsolutePath();
+				//tempFilePath = "C:\\Users\\hobert\\workspace\\data suara pertanyaan\\dimana_budi_utomo_didirikan.wav";
+				System.out.println(tempFilePath);
+				new LoadAudioRecorded().execute();
+			}
+		});
+		btnHidden.setBounds(44, 112, 90, 28);
+		btnHidden.setVisible(true);
+		panel3.add(btnHidden);
+		
 		JPanel panel4 = new JPanel();
 		panel4.setLayout(null);
 		tabbedPane.add("Persentage error (custom)", panel4);
@@ -664,68 +642,5 @@ public class Pengujian extends JFrame {
 		textField_3.setColumns(10);
 		textField_3.setBounds(151, 95, 49, 26);
 		panel4.add(textField_3);
-		
-		JPanel panel5 = new JPanel();
-		panel5.setLayout(null);
-		tabbedPane.add("Uji gabungan", panel5);
-		
-		JSoundCapture soundCapture_1 = new JSoundCapture(true, true);
-		soundCapture_1.setBounds(23, 6, 504, 88);
-		panel5.add(soundCapture_1);
-		
-		JLabel lblAnswer = new JLabel("answer:");
-		lblAnswer.setBounds(24, 145, 55, 16);
-		panel5.add(lblAnswer);
-		
-		answerTextField = new JTextField();
-		answerTextField.setEditable(false);
-		answerTextField.setBounds(23, 161, 504, 28);
-		panel5.add(answerTextField);
-		answerTextField.setColumns(10);
-		
-		JButton btnGetAnswer = new JButton("Get Answer");
-		btnGetAnswer.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				answerTextField.setText("");
-				questionField.setText("");
-				tempFileName = JSoundCapture.saveFileName+".wav";
-				File tempFile = new File ("tempRecord",tempFileName);
-				tempFilePath = tempFile.getAbsolutePath();
-				System.out.println(tempFilePath);
-				new SearchAnswer().execute();
-			}
-		});
-		btnGetAnswer.setBounds(70, 93, 105, 28);
-		panel5.add(btnGetAnswer);
-		
-		JLabel lblQuestion = new JLabel("Question");
-		lblQuestion.setBounds(190, 106, 55, 16);
-		panel5.add(lblQuestion);
-		
-		questionField = new JTextField();
-		questionField.setEditable(false);
-		questionField.setBounds(243, 100, 284, 28);
-		panel5.add(questionField);
-		questionField.setColumns(10);
-		
-		JLabel lblWaktuSuara = new JLabel("Waktu suara -> teks");
-		lblWaktuSuara.setBounds(70, 133, 116, 16);
-		panel5.add(lblWaktuSuara);
-		
-		textFieldWaktuSuara = new JTextField();
-		textFieldWaktuSuara.setFont(new Font("SansSerif", Font.PLAIN, 10));
-		textFieldWaktuSuara.setBounds(190, 133, 55, 28);
-		panel5.add(textFieldWaktuSuara);
-		textFieldWaktuSuara.setColumns(10);
-		
-		JLabel lblWaktuTeks = new JLabel("Waktu teks -> jawaban\r\n");
-		lblWaktuTeks.setBounds(253, 133, 131, 16);
-		panel5.add(lblWaktuTeks);
-		
-		textFieldWaktuJawaban = new JTextField();
-		textFieldWaktuJawaban.setFont(new Font("SansSerif", Font.PLAIN, 10));
-		textFieldWaktuJawaban.setColumns(10);
-		textFieldWaktuJawaban.setBounds(386, 131, 55, 30);
-		panel5.add(textFieldWaktuJawaban);
 	}
 }
